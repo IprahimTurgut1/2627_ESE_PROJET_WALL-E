@@ -2235,6 +2235,12 @@
 					(unit 1)
 				)
 			)
+			(project "projet"
+				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/4514bd7e-b14a-4ac6-acb6-eee8829a059e"
+					(reference "C14")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2395,6 +2401,12 @@
 		(instances
 			(project "puissance"
 				(path "/14f0bef4-9b1f-4004-8b4a-8e1a2fdb236a"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+			(project "projet"
+				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/4514bd7e-b14a-4ac6-acb6-eee8829a059e"
 					(reference "#PWR036")
 					(unit 1)
 				)
@@ -3398,6 +3410,12 @@
 					(unit 1)
 				)
 			)
+			(project "projet"
+				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/4514bd7e-b14a-4ac6-acb6-eee8829a059e"
+					(reference "C13")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3842,5 +3860,4 @@
 			(page "1")
 		)
 	)
-	(embedded_fonts no)
 )
