@@ -1,0 +1,418 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "aad9219d-d686-4d68-8dbb-b3c2b0727159")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 125.73 102.87)
+		(size 52.07 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "23293480-63ec-471b-bf54-55169cccd8a3")
+		(property "Sheetname" "Capteur"
+			(at 125.73 102.1584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "capteur.kicad_sch"
+			(at 125.73 147.9046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "projet"
+				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 53.34 102.87)
+		(size 48.26 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4514bd7e-b14a-4ac6-acb6-eee8829a059e")
+		(property "Sheetname" "Puissance"
+			(at 53.34 102.1584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "puissance.kicad_sch"
+			(at 53.34 147.9046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "projet"
+				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 125.73 45.72)
+		(size 52.07 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8d7235a3-ed0d-4c0c-a716-b22c65fe70a8")
+		(property "Sheetname" "MCU"
+			(at 125.73 45.0084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 125.73 89.4846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "APDS_INT" input
+			(at 125.73 48.26 180)
+			(uuid "04e1f231-a371-4027-bf53-4e8d69c2c523")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CHG_INT" input
+			(at 125.73 50.8 180)
+			(uuid "260ff741-7c10-4d4d-8a24-5bfc6b033283")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CHG_nCE" output
+			(at 125.73 53.34 180)
+			(uuid "374e7197-f222-4608-98e9-6144155373b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CHG_OTG" output
+			(at 125.73 55.88 180)
+			(uuid "171e2472-e0fa-4bee-881f-5aca4e192e54")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOT_AIN1" output
+			(at 125.73 58.42 180)
+			(uuid "fd1d9259-5331-46a9-bd48-d91b65bfc473")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOT_AIN2" output
+			(at 125.73 60.96 180)
+			(uuid "9339aa63-0746-4017-9012-88f8790791f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOT_BIN1" output
+			(at 125.73 63.5 180)
+			(uuid "6a575b5b-c674-4262-994a-e3def246f910")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOT_BIN2" output
+			(at 125.73 66.04 180)
+			(uuid "b9c13fd1-e1e3-4314-be2f-7b630e6c0ec0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOT_nFAULT" input
+			(at 125.73 68.58 180)
+			(uuid "c2547b8d-3096-46e7-aea5-7945ca97afa8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOT_nSLEEP" output
+			(at 125.73 71.12 180)
+			(uuid "b4d7cab6-2ed6-4b0a-8d4e-e7389aaab950")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SERVO_PWM" output
+			(at 125.73 73.66 180)
+			(uuid "4f2307a8-fa08-4a48-9cf4-2195507e3492")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TOF_GPIO1" input
+			(at 125.73 76.2 180)
+			(uuid "21d1fd4f-dd7f-45a7-8c6c-0d3109c1490a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TOF_XSHUT" output
+			(at 125.73 78.74 180)
+			(uuid "1eb37075-7d14-4826-b4b3-2010f3c453c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART_RX" input
+			(at 125.73 81.28 180)
+			(uuid "747e3e2e-4794-4d87-9a5b-a222aaf4c8de")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART_TX" output
+			(at 125.73 83.82 180)
+			(uuid "026928c7-62fd-42ef-a2fe-a979798f3e9b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "projet"
+				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 53.34 45.72)
+		(size 46.99 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "bd811c64-dff7-4046-86a6-8e854625b7a5")
+		(property "Sheetname" "Alimentation"
+			(at 53.34 45.0084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "alim.kicad_sch"
+			(at 53.34 89.4846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CHG_INT" output
+			(at 100.33 53.34 0)
+			(uuid "9f5c9eac-f25d-457e-a734-f12dcb51883d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CHG_OTG" output
+			(at 100.33 58.42 0)
+			(uuid "273ee3cf-4ab5-457e-96e7-f9071596405d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" input
+			(at 100.33 63.5 0)
+			(uuid "960f9de5-56ee-403e-bdc4-95ef2ac7e5cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 100.33 69.85 0)
+			(uuid "4bfd0a04-14e5-44e8-a865-dc9b01dea5d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5V_MOT" output
+			(at 100.33 74.93 0)
+			(uuid "1e3434b1-f745-4aa1-b938-b21549ab06de")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VSYS" passive
+			(at 100.33 78.74 0)
+			(uuid "0ee4b791-1ddb-413c-9ce9-b4745b96932e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GAUGE_INT" output
+			(at 100.33 85.09 0)
+			(uuid "e7b4513a-0b23-46b9-93c5-95b29ab9a0e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "projet"
+				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

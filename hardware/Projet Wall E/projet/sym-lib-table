@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "wall_e") (type "KiCad") (uri "${KIPRJMOD}/wall_e.kicad_sym") (options "") (descr ""))
+)
