@@ -777,7 +777,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_BGA:Texas_DSBGA-9_1.62x1.58mm_Layout3x3_P0.5mm"
+		(property "Footprint" "Package_BGA:Texas_DSBGA-9_1.4715x1.4715mm_Layout3x3_P0.5mm"
 			(at 6.35 -13.97 0)
 			(show_name no)
 			(do_not_autoplace no)
