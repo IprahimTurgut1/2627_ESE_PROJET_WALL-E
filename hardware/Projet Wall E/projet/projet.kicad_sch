@@ -67,7 +67,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "4514bd7e-b14a-4ac6-acb6-eee8829a059e")
-		(property "Sheetname" "Puissance"
+		(property "Sheetname" "Moteur"
 			(at 53.34 102.1584 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -78,7 +78,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "puissance.kicad_sch"
+		(property "Sheetfile" "moteur.kicad_sch"
 			(at 53.34 147.9046 0)
 			(show_name no)
 			(do_not_autoplace no)
