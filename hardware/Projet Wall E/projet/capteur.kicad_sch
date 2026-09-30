@@ -921,6 +921,10 @@
 		(color 0 0 0 0)
 		(uuid "f061db98-6bf4-4cce-ab7c-ed41a6827a46")
 	)
+	(no_connect
+		(at 214.63 85.09)
+		(uuid "d9db2c0c-63a4-432a-bc7f-0b7a4d14d591")
+	)
 	(wire
 		(pts
 			(xy 138.43 86.36) (xy 138.43 104.14)
@@ -1190,16 +1194,6 @@
 			(type default)
 		)
 		(uuid "5e902817-2aa5-448d-92bf-720735715474")
-	)
-	(wire
-		(pts
-			(xy 212.09 85.09) (xy 214.63 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64013541-6c1c-4650-a912-d565acecc271")
 	)
 	(wire
 		(pts
@@ -2104,81 +2098,6 @@
 			(project "projet"
 				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/23293480-63ec-471b-bf54-55169cccd8a3"
 					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 212.09 85.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "29910058-4c17-43e9-81ff-3aa6c44afab4")
-		(property "Reference" "#PWR053"
-			(at 212.09 88.646 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 212.09 81.534 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 212.09 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 212.09 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "598db382-a9e5-4252-bdde-3dc401cd459e")
-		)
-		(instances
-			(project "projet"
-				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/23293480-63ec-471b-bf54-55169cccd8a3"
-					(reference "#PWR053")
 					(unit 1)
 				)
 			)
