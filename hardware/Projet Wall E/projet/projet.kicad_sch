@@ -43,6 +43,76 @@
 				(justify left top)
 			)
 		)
+		(pin "APDS_INT" output
+			(at 125.73 107.95 180)
+			(uuid "af32869e-fc4f-4f11-880d-85787ab4da24")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL_CAPT" bidirectional
+			(at 125.73 113.03 180)
+			(uuid "609b28bd-6d0a-4aaf-8c58-d49dc1fa4696")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA_CAPT" bidirectional
+			(at 125.73 118.11 180)
+			(uuid "c0e69183-aa6e-448a-be6e-e3e4bb0ef9b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TOF_L_GPIO1" output
+			(at 125.73 121.92 180)
+			(uuid "066efe35-4c5b-4b0d-b0e1-43eae709ebeb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TOF_L_XSHUT" input
+			(at 125.73 127 180)
+			(uuid "af3f4bd4-8266-4462-8acc-9169a693e00d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TOF_R_GPIO1" output
+			(at 125.73 130.81 180)
+			(uuid "68483892-5ae8-4f8c-9f2c-f7c05d433d33")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TOF_R_XSHUT" input
+			(at 125.73 135.89 180)
+			(uuid "63d96350-38ab-41ff-b045-7cb76e5e6374")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "projet"
 				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159"
@@ -87,6 +157,86 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "AIN1" input
+			(at 101.6 109.22 0)
+			(uuid "1856183a-69d6-49df-aced-bc469cbd9031")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AIN2" input
+			(at 101.6 114.3 0)
+			(uuid "3066d36f-e535-41b3-9605-8b7f1dc0d7a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BIN1" input
+			(at 101.6 119.38 0)
+			(uuid "fdd2b9c6-1e38-4e02-92ee-2b9599c3bf86")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BIN2" input
+			(at 101.6 123.19 0)
+			(uuid "6fc70302-085c-4470-b032-a2766913cf2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ENCA_AOUT" output
+			(at 101.6 128.27 0)
+			(uuid "0ea95750-d1e5-4581-8d8e-0edb31e290cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ENCA_BOUT" output
+			(at 101.6 132.08 0)
+			(uuid "e1177ba6-2436-4906-9ca9-d3a8f13419a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ENCB_AOUT" output
+			(at 101.6 134.62 0)
+			(uuid "0b863551-c55f-4917-832d-d4fd7651b375")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ENCB_BOUT" output
+			(at 101.6 138.43 0)
+			(uuid "13ee2469-b597-43cf-ab84-d5ccb3de0098")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
