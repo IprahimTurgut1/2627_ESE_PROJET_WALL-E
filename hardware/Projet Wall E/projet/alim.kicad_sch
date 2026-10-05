@@ -9882,6 +9882,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part" "C181475"
+			(at 201.93 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "17"
 			(uuid "1e4ddb0a-a3cb-44f3-a24a-04d1731a19b4")
 		)
@@ -11663,6 +11674,17 @@
 			)
 		)
 		(property "Description" "Single-cell CEDV fuel gauge, I2C, DSBGA-9"
+			(at 67.31 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part" "C528617"
 			(at 67.31 154.94 0)
 			(hide yes)
 			(show_name no)
