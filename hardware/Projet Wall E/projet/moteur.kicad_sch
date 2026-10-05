@@ -2779,6 +2779,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C1556089"
+			(at 85.09 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "15"
 			(uuid "f7bf5bdf-18b3-4fe1-944c-d9d067ac11b5")
 		)

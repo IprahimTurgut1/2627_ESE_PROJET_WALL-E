@@ -4485,12 +4485,6 @@
 		(uuid "016feddd-119d-4afc-8229-4020f378264f")
 	)
 	(junction
-		(at 232.41 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0d6a9d1b-59d0-4e97-aaac-3909414f6f77")
-	)
-	(junction
 		(at 139.7 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6350,16 +6344,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 80.01) (xy 232.41 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd80db62-6de8-495f-99da-8d0e17fed74a")
-	)
-	(wire
-		(pts
 			(xy 58.42 102.87) (xy 58.42 100.33)
 		)
 		(stroke
@@ -7327,6 +7311,17 @@
 				(justify left)
 			)
 		)
+		(property "JLCPCB Part #" "C504050"
+			(at 154.94 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3314457c-e416-493e-8280-e6b83999911d")
 		)
@@ -8050,6 +8045,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C53664499"
+			(at 173.99 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "163d12a6-5421-42bc-9de3-211cae454ba5")
 		)
@@ -8136,6 +8142,17 @@
 		)
 		(property "Description" "-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23"
 			(at 158.75 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C2940610"
+			(at 158.75 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8323,6 +8340,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 214.63 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C2286"
+			(at 214.63 24.13 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9461,6 +9489,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C53664499"
+			(at 156.21 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "163d12a6-5421-42bc-9de3-211cae454ba6")
 		)
@@ -9863,6 +9902,17 @@
 		)
 		(property "Description" "I2C Controlled Single Cell (Li-Ion / Li-Polymer) 5A Fast Charger with MaxCharge, USB BC1.2 Detection, 3.9..14V VBUS, 3.840..4.608V charge voltage range, 1.5 MHz (buck mode) and 500 kHz /1.5 MHz (boost mode), WQFN-24"
 			(at 201.93 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C181475"
+			(at 201.93 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10736,6 +10786,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C52923"
+			(at 35.56 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7f445c73-d70e-4584-a636-f7d1dd785f54")
 		)
@@ -11069,6 +11130,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 139.7 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C2286"
+			(at 139.7 128.27 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11413,6 +11485,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C22365427"
+			(at 45.72 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7580162f-c144-4138-a2da-257e6fceb358")
 		)
@@ -11653,6 +11736,17 @@
 			)
 		)
 		(property "Description" "Single-cell CEDV fuel gauge, I2C, DSBGA-9"
+			(at 67.31 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C528617"
 			(at 67.31 154.94 0)
 			(hide yes)
 			(show_name no)
