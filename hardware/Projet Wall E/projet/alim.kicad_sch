@@ -351,12 +351,8 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:SMAJ5.0A"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Power_Protection:USBLC6-2SC6"
 			(pin_names
-				(offset 1.016)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -364,28 +360,43 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
+			(property "Reference" "U"
+				(at 0.635 5.715 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "SMAJ5.0A"
-				(at 0 -2.54 0)
+			(property "Value" "USBLC6-2SC6"
+				(at 0.635 3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "Diode_SMD:D_SMA"
-				(at 0 -5.08 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+				(at 1.27 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+				(at 1.27 -8.255 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -393,20 +404,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-				(at -1.27 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "400W unidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
+			(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -417,7 +418,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "unidirectional diode TVS voltage suppressor"
+			(property "ki_keywords" "usb ethernet video"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -428,7 +429,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "D*SMA*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -439,13 +440,81 @@
 					)
 				)
 			)
-			(symbol "SMAJ5.0A_0_1"
+			(symbol "USBLC6-2SC6_0_0"
+				(circle
+					(center -1.524 0)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.508 2.032)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.508 -4.572)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.508 2.032)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.508 -4.572)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.524 -2.54)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "USBLC6-2SC6_0_1"
 				(polyline
 					(pts
-						(xy -0.762 1.27) (xy -1.27 1.27) (xy -1.27 -1.27)
+						(xy -2.54 0) (xy 2.54 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -454,10 +523,143 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+						(xy -2.54 -2.54) (xy 2.54 -2.54)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.508) (xy -1.016 0.508) (xy -1.524 1.524) (xy -2.032 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -3.048) (xy -1.016 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.524) (xy -2.032 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.064) (xy -2.032 -4.064) (xy -1.524 -3.048) (xy -1.016 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.143) (xy -0.508 -0.762) (xy 0.508 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -0.508 2.032) (xy 0.508 2.032) (xy 0 1.524) (xy 0 -4.064) (xy -0.508 -4.572) (xy 0.508 -4.572)
+						(xy 0 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -1.778) (xy -0.508 -1.778) (xy 0 -0.762) (xy 0.508 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.524) (xy 2.032 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -3.048) (xy 2.032 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0.508) (xy 1.016 0.508) (xy 1.524 1.524) (xy 2.032 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -4.064) (xy 1.016 -4.064) (xy 1.524 -3.048) (xy 2.032 -4.064)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -465,11 +667,46 @@
 					)
 				)
 			)
-			(symbol "SMAJ5.0A_1_1"
+			(symbol "USBLC6-2SC6_1_1"
+				(rectangle
+					(start -2.54 2.794)
+					(end 2.54 -5.334)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.032) (xy -1.524 2.032) (xy -1.524 -4.572) (xy -0.508 -4.572)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -4.572) (xy 1.524 -4.572) (xy 1.524 2.032) (xy 0.508 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at -3.81 0 0)
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "A1"
+					(name "I/O1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -485,9 +722,9 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
+					(at 0 -7.62 90)
 					(length 2.54)
-					(name "A2"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -495,6 +732,78 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "I/O2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "I/O2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "I/O1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4485,6 +4794,12 @@
 		(uuid "016feddd-119d-4afc-8229-4020f378264f")
 	)
 	(junction
+		(at 68.58 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08244468-2a85-40ab-aa50-f9f4806aaf86")
+	)
+	(junction
 		(at 232.41 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4620,7 +4935,7 @@
 		(at 68.58 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7d5f3ec1-8b32-4280-9eae-84a36e49e50a")
+		(uuid "792344e9-1ed4-469c-a47a-ecad90c44af5")
 	)
 	(junction
 		(at 157.48 68.58)
@@ -4657,12 +4972,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8231ce4-52e7-4c3e-8850-24c05cb9103f")
-	)
-	(junction
-		(at 68.58 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b72bbe0c-7033-403d-9fbf-da9bb4226bc6")
 	)
 	(junction
 		(at 220.98 53.34)
@@ -4705,12 +5014,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4575bd6-dce1-471f-b24f-e69c0b102c1d")
-	)
-	(junction
-		(at 68.58 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f7223eea-bd0c-4593-8d9a-c2a5b12822c1")
 	)
 	(no_connect
 		(at 191.77 71.12)
@@ -4757,6 +5060,16 @@
 			(type default)
 		)
 		(uuid "078cdbe1-e857-401e-b313-26a0c50440ea")
+	)
+	(wire
+		(pts
+			(xy 86.36 62.23) (xy 86.36 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0792040f-bce2-4b4e-bb45-38e68fb172c1")
 	)
 	(wire
 		(pts
@@ -4807,16 +5120,6 @@
 			(type default)
 		)
 		(uuid "0fe56a69-68be-44cc-968e-63a4d89f559e")
-	)
-	(wire
-		(pts
-			(xy 68.58 49.53) (xy 71.12 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "110a055b-28d9-4ae8-8fc1-57921b38eeb2")
 	)
 	(wire
 		(pts
@@ -5100,6 +5403,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 54.61) (xy 74.93 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3da084a9-c636-400c-9712-7664958b6795")
+	)
+	(wire
+		(pts
 			(xy 214.63 85.09) (xy 214.63 86.36)
 		)
 		(stroke
@@ -5117,6 +5430,16 @@
 			(type default)
 		)
 		(uuid "3e2a4b34-7a8a-4994-8027-36fbf868d467")
+	)
+	(wire
+		(pts
+			(xy 86.36 77.47) (xy 86.36 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ecb937d-9590-4fe5-a845-3249ab494c4d")
 	)
 	(wire
 		(pts
@@ -5167,6 +5490,16 @@
 			(type default)
 		)
 		(uuid "4602f88f-9bd6-430e-98b7-7ffbf1b52218")
+	)
+	(wire
+		(pts
+			(xy 91.44 69.85) (xy 96.52 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "460e73ac-8c9d-4cb2-bc66-a12abc636b66")
 	)
 	(wire
 		(pts
@@ -5430,6 +5763,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 49.53) (xy 78.74 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66470ac8-1011-4c69-b7c1-ab2aaf8f9019")
+	)
+	(wire
+		(pts
 			(xy 67.31 170.18) (xy 67.31 172.72)
 		)
 		(stroke
@@ -5510,6 +5853,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 54.61) (xy 68.58 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "733aca5b-4452-44c2-b97e-2e3ea5979b95")
+	)
+	(wire
+		(pts
 			(xy 21.59 102.87) (xy 21.59 99.06)
 		)
 		(stroke
@@ -5550,6 +5903,26 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 72.39) (xy 81.28 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "789d4e62-a8a7-4973-ba69-ecbe63f9dd2c")
+	)
+	(wire
+		(pts
+			(xy 78.74 49.53) (xy 78.74 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "791b9a28-cc31-4727-be69-d8757ac68b84")
+	)
+	(wire
+		(pts
 			(xy 48.26 165.1) (xy 48.26 170.18)
 		)
 		(stroke
@@ -5567,16 +5940,6 @@
 			(type default)
 		)
 		(uuid "7a03393f-d423-45ff-a80e-a9b691a225ef")
-	)
-	(wire
-		(pts
-			(xy 68.58 53.34) (xy 68.58 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f7bfbc1-e662-4af5-ba89-926d97b7ce48")
 	)
 	(wire
 		(pts
@@ -5660,26 +6023,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 48.26) (xy 68.58 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "865f19fa-6178-4e6d-ad1d-ff709eb5f38a")
-	)
-	(wire
-		(pts
-			(xy 68.58 54.61) (xy 71.12 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "877cac2f-6415-4e4c-bdef-f689c10305a6")
-	)
-	(wire
-		(pts
 			(xy 158.75 40.64) (xy 158.75 41.91)
 		)
 		(stroke
@@ -5710,7 +6053,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 54.61) (xy 68.58 55.88)
+			(xy 68.58 53.34) (xy 68.58 54.61)
 		)
 		(stroke
 			(width 0)
@@ -5940,16 +6283,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 33.02) (xy 64.77 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a37ad029-732d-41c4-b91d-9d4880c9e797")
-	)
-	(wire
-		(pts
 			(xy 153.67 128.27) (xy 151.13 128.27)
 		)
 		(stroke
@@ -5990,6 +6323,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 69.85) (xy 81.28 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8b6550c-bdd5-437c-9bef-63a857ac6745")
+	)
+	(wire
+		(pts
 			(xy 64.77 48.26) (xy 68.58 48.26)
 		)
 		(stroke
@@ -6000,7 +6343,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 26.67) (xy 68.58 33.02)
+			(xy 68.58 26.67) (xy 68.58 35.56)
 		)
 		(stroke
 			(width 0)
@@ -6040,16 +6383,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 33.02) (xy 81.28 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae5d771c-94f4-4719-b998-33d9fee2b5a1")
-	)
-	(wire
-		(pts
 			(xy 21.59 102.87) (xy 30.48 102.87)
 		)
 		(stroke
@@ -6067,6 +6400,16 @@
 			(type default)
 		)
 		(uuid "b0a706f9-c8ba-4768-88d2-4943fd2db9d7")
+	)
+	(wire
+		(pts
+			(xy 91.44 72.39) (xy 96.52 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1c09f8e-bf0c-4142-b182-6148c7aac22f")
 	)
 	(wire
 		(pts
@@ -6170,7 +6513,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 49.53) (xy 68.58 50.8)
+			(xy 68.58 48.26) (xy 68.58 49.53)
 		)
 		(stroke
 			(width 0)
@@ -6187,6 +6530,16 @@
 			(type default)
 		)
 		(uuid "c0a70a18-7846-4f5c-9e5b-34f487396d7c")
+	)
+	(wire
+		(pts
+			(xy 68.58 49.53) (xy 68.58 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c128ee35-3621-4626-a0b4-7ebc54236d07")
 	)
 	(wire
 		(pts
@@ -6237,6 +6590,16 @@
 			(type default)
 		)
 		(uuid "ccdb0f99-8ac4-4263-9d67-665db326b404")
+	)
+	(wire
+		(pts
+			(xy 68.58 54.61) (xy 74.93 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf23a605-a892-44f6-b245-6988ea69eb8e")
 	)
 	(wire
 		(pts
@@ -6390,16 +6753,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 33.02) (xy 71.12 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e38a5397-ceac-4b31-ba52-b02296d48f6f")
-	)
-	(wire
-		(pts
 			(xy 49.53 157.48) (xy 52.07 157.48)
 		)
 		(stroke
@@ -6410,7 +6763,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 33.02) (xy 64.77 33.02)
+			(xy 68.58 35.56) (xy 64.77 35.56)
 		)
 		(stroke
 			(width 0)
@@ -6610,16 +6963,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 33.02) (xy 81.28 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f820aaa3-0506-4182-8e95-ec60a7e8b431")
-	)
-	(wire
-		(pts
 			(xy 234.95 53.34) (xy 243.84 53.34)
 		)
 		(stroke
@@ -6761,16 +7104,16 @@
 		)
 		(uuid "54bda1fe-ed08-4779-b341-624b53a31752")
 	)
-	(hierarchical_label "USB_DP"
+	(hierarchical_label "USB_DM"
 		(shape bidirectional)
-		(at 71.12 54.61 0)
+		(at 96.52 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "5c97e383-1bf9-4322-9571-a855c458d834")
+		(uuid "62725b1c-db12-4348-81a2-224cfa41dceb")
 	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
@@ -6794,16 +7137,16 @@
 		)
 		(uuid "9563f5e5-a85b-4ea1-a949-208aebc46e06")
 	)
-	(hierarchical_label "USB_DM"
+	(hierarchical_label "USB_DP"
 		(shape bidirectional)
-		(at 71.12 49.53 0)
+		(at 96.52 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "cf3fc3e8-f34c-4c4d-ad4d-1ac86bf1a95b")
+		(uuid "c1396786-135e-412d-9813-b4b30a50f742")
 	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
@@ -10195,86 +10538,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SMAJ5.0A")
-		(at 74.93 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6a55675a-3010-4152-ad5a-5932ae21e3d7")
-		(property "Reference" "D4"
-			(at 74.93 26.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SMAJ5.0A"
-			(at 74.93 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 74.93 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-			(at 73.66 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "400W unidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
-			(at 74.93 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6a5bb1f6-86b5-4a20-87d9-e4733ecd24e3")
-		)
-		(pin "2"
-			(uuid "a0cc0288-afe1-46e3-ace1-6081d2184632")
-		)
-		(instances
-			(project "projet"
-				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/bd811c64-dff7-4046-86a6-8e854625b7a5"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "wall_e:R")
 		(at 170.18 30.48 0)
 		(unit 1)
@@ -10516,6 +10779,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 86.36 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "758b1d04-f356-493d-b300-5c466bc80681")
+		(property "Reference" "#PWR024"
+			(at 86.36 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 86.36 58.166 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 86.36 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cedaa7bd-69c3-4bb7-8a96-5f933b336725")
+		)
+		(instances
+			(project "projet"
+				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/bd811c64-dff7-4046-86a6-8e854625b7a5"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 243.84 44.45 0)
 		(unit 1)
@@ -10746,6 +11086,103 @@
 			(project "projet"
 				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/bd811c64-dff7-4046-86a6-8e854625b7a5"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Protection:USBLC6-2SC6")
+		(at 86.36 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b8e1eca-943c-457d-881e-7c1596079cdb")
+		(property "Reference" "U6"
+			(at 88.0111 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "USBLC6-2SC6"
+			(at 88.0111 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 87.63 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+			(at 87.63 78.105 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+			(at 86.36 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "94f83d23-8d71-44bf-9812-b7733446f90d")
+		)
+		(pin "4"
+			(uuid "8e057eb6-275c-4cdb-83eb-6a63761cac1c")
+		)
+		(pin "2"
+			(uuid "11f0266c-b520-4316-8392-19ab6ea6c1f4")
+		)
+		(pin "1"
+			(uuid "db3d925e-5399-4593-8e0f-cbb0f99190f9")
+		)
+		(pin "3"
+			(uuid "ce115a43-98ac-418b-ab98-68b9ee4369a8")
+		)
+		(pin "5"
+			(uuid "3cb06eab-3340-41a7-a06c-3c7f5e0de9ef")
+		)
+		(instances
+			(project "projet"
+				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/bd811c64-dff7-4046-86a6-8e854625b7a5"
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -12548,7 +12985,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 81.28 34.29 0)
+		(at 86.36 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12558,7 +12995,7 @@
 		(dnp no)
 		(uuid "dc51219f-f05e-4dd9-8e07-25a7a78e2338")
 		(property "Reference" "#PWR045"
-			(at 81.28 40.64 0)
+			(at 86.36 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12569,7 +13006,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 81.28 38.354 0)
+			(at 86.36 85.344 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12579,7 +13016,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 34.29 0)
+			(at 86.36 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12590,7 +13027,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 34.29 0)
+			(at 86.36 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12601,7 +13038,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 34.29 0)
+			(at 86.36 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
