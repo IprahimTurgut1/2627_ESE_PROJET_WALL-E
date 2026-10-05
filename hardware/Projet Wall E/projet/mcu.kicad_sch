@@ -5475,12 +5475,6 @@
 			(uuid "3598f60c-773e-499d-9ac7-019214086ffa")
 		)
 		(instances
-			(project "projet"
-				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/8d7235a3-ed0d-4c0c-a716-b22c65fe70a8"
-					(reference "J1")
-					(unit 1)
-				)
-			)
 			(project "mcu"
 				(path "/d1f6b90d-1ee5-4a93-8c97-f2b0d96541e8"
 					(reference "J1")
@@ -5560,12 +5554,6 @@
 			(uuid "542e1e37-38cd-4a0d-8080-92838a812824")
 		)
 		(instances
-			(project "projet"
-				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/8d7235a3-ed0d-4c0c-a716-b22c65fe70a8"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
 			(project "mcu"
 				(path "/d1f6b90d-1ee5-4a93-8c97-f2b0d96541e8"
 					(reference "#PWR016")
@@ -5736,12 +5724,6 @@
 			(uuid "88ef2d59-f18f-4354-933e-8401d75aac5b")
 		)
 		(instances
-			(project "projet"
-				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/8d7235a3-ed0d-4c0c-a716-b22c65fe70a8"
-					(reference "JP1")
-					(unit 1)
-				)
-			)
 			(project "mcu"
 				(path "/d1f6b90d-1ee5-4a93-8c97-f2b0d96541e8"
 					(reference "JP1")
@@ -5821,12 +5803,6 @@
 			(uuid "6ca9c6ad-14d1-4a9f-a306-f5e485ea6dbf")
 		)
 		(instances
-			(project "projet"
-				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/8d7235a3-ed0d-4c0c-a716-b22c65fe70a8"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
 			(project "mcu"
 				(path "/d1f6b90d-1ee5-4a93-8c97-f2b0d96541e8"
 					(reference "#PWR034")
@@ -5905,12 +5881,6 @@
 			(uuid "81295c40-2c8a-4a5d-ad49-822480f49ba0")
 		)
 		(instances
-			(project "projet"
-				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/8d7235a3-ed0d-4c0c-a716-b22c65fe70a8"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
 			(project "mcu"
 				(path "/d1f6b90d-1ee5-4a93-8c97-f2b0d96541e8"
 					(reference "#PWR017")
@@ -6099,12 +6069,6 @@
 			(uuid "43884f4d-eb47-4113-95a6-72d53dc874e9")
 		)
 		(instances
-			(project "projet"
-				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/8d7235a3-ed0d-4c0c-a716-b22c65fe70a8"
-					(reference "D1")
-					(unit 1)
-				)
-			)
 			(project "mcu"
 				(path "/d1f6b90d-1ee5-4a93-8c97-f2b0d96541e8"
 					(reference "D1")
@@ -6187,12 +6151,6 @@
 			(uuid "8fe6d641-43e7-4ffe-90be-7d80af88cb2b")
 		)
 		(instances
-			(project "projet"
-				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/8d7235a3-ed0d-4c0c-a716-b22c65fe70a8"
-					(reference "JP2")
-					(unit 1)
-				)
-			)
 			(project "mcu"
 				(path "/d1f6b90d-1ee5-4a93-8c97-f2b0d96541e8"
 					(reference "JP2")
@@ -6534,12 +6492,6 @@
 			(uuid "d50ced40-0cb5-40a3-a998-cb6e9e550ae5")
 		)
 		(instances
-			(project "projet"
-				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/8d7235a3-ed0d-4c0c-a716-b22c65fe70a8"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
 			(project "mcu"
 				(path "/d1f6b90d-1ee5-4a93-8c97-f2b0d96541e8"
 					(reference "#PWR035")
@@ -7070,12 +7022,6 @@
 			(uuid "e0938d67-64b9-42f2-80f3-0352d0158b7b")
 		)
 		(instances
-			(project "projet"
-				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/8d7235a3-ed0d-4c0c-a716-b22c65fe70a8"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
 			(project "mcu"
 				(path "/d1f6b90d-1ee5-4a93-8c97-f2b0d96541e8"
 					(reference "#PWR013")
@@ -7323,12 +7269,6 @@
 			(uuid "0fd18d4b-4cb7-49b8-8dcb-fba7b60a2f93")
 		)
 		(instances
-			(project "projet"
-				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/8d7235a3-ed0d-4c0c-a716-b22c65fe70a8"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
 			(project "mcu"
 				(path "/d1f6b90d-1ee5-4a93-8c97-f2b0d96541e8"
 					(reference "#PWR015")
@@ -7450,12 +7390,6 @@
 			(uuid "2a08212b-c2a6-4d41-8482-ce9c24e86425")
 		)
 		(instances
-			(project "projet"
-				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/8d7235a3-ed0d-4c0c-a716-b22c65fe70a8"
-					(reference "Y1")
-					(unit 1)
-				)
-			)
 			(project "mcu"
 				(path "/d1f6b90d-1ee5-4a93-8c97-f2b0d96541e8"
 					(reference "Y1")
@@ -7663,12 +7597,6 @@
 			(uuid "86e61468-5c43-43a6-8a47-dfed460062ca")
 		)
 		(instances
-			(project "projet"
-				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/8d7235a3-ed0d-4c0c-a716-b22c65fe70a8"
-					(reference "J2")
-					(unit 1)
-				)
-			)
 			(project "mcu"
 				(path "/d1f6b90d-1ee5-4a93-8c97-f2b0d96541e8"
 					(reference "J2")
@@ -7762,12 +7690,6 @@
 			(uuid "2c46d5a8-aa54-463e-8187-81fb9fd72dc8")
 		)
 		(instances
-			(project "projet"
-				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/8d7235a3-ed0d-4c0c-a716-b22c65fe70a8"
-					(reference "R4")
-					(unit 1)
-				)
-			)
 			(project "mcu"
 				(path "/d1f6b90d-1ee5-4a93-8c97-f2b0d96541e8"
 					(reference "R4")
@@ -8033,12 +7955,6 @@
 			(uuid "80f8ee52-9d1f-474f-8099-622f517fcfa8")
 		)
 		(instances
-			(project "projet"
-				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/8d7235a3-ed0d-4c0c-a716-b22c65fe70a8"
-					(reference "R3")
-					(unit 1)
-				)
-			)
 			(project "mcu"
 				(path "/d1f6b90d-1ee5-4a93-8c97-f2b0d96541e8"
 					(reference "R3")
@@ -8143,12 +8059,6 @@
 			(uuid "d6e5084d-02f0-4520-a17c-9cba4706596e")
 		)
 		(instances
-			(project "projet"
-				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/8d7235a3-ed0d-4c0c-a716-b22c65fe70a8"
-					(reference "D2")
-					(unit 1)
-				)
-			)
 			(project "mcu"
 				(path "/d1f6b90d-1ee5-4a93-8c97-f2b0d96541e8"
 					(reference "D2")
@@ -8319,12 +8229,6 @@
 			(uuid "665a2e55-8dd1-4a08-930c-df40f1d18a93")
 		)
 		(instances
-			(project "projet"
-				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/8d7235a3-ed0d-4c0c-a716-b22c65fe70a8"
-					(reference "C23")
-					(unit 1)
-				)
-			)
 			(project "mcu"
 				(path "/d1f6b90d-1ee5-4a93-8c97-f2b0d96541e8"
 					(reference "C23")
@@ -8507,4 +8411,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
