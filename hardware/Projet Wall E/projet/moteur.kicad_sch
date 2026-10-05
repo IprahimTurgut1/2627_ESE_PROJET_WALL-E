@@ -279,6 +279,184 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Polarized_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized_Small"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Polarized capacitor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Polarized_Small_0_1"
+				(rectangle
+					(start -1.524 0.6858)
+					(end 1.524 0.3048)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.524 -0.3048)
+					(end 1.524 -0.6858)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.524) (xy -0.762 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy -1.016 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Polarized_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.8542)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.8542)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -1122,145 +1300,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -1357,6 +1396,145 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VBUS"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VBUS"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VBUS\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VBUS_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VBUS_1_1"
+				(pin power_in line
+					(at 0 0 90)
 					(length 0)
 					(name ""
 						(effects
@@ -2037,7 +2215,7 @@
 		)
 		(uuid "18d90dbc-3285-4bd0-b2a6-6c086288e8dd")
 	)
-	(hierarchical_label "nFAULT"
+	(hierarchical_label "MOT_nFAULT"
 		(shape output)
 		(at 110.49 80.01 0)
 		(effects
@@ -2059,7 +2237,7 @@
 		)
 		(uuid "40911054-d628-4fe4-badc-d5549d94ab43")
 	)
-	(hierarchical_label "BIN1"
+	(hierarchical_label "MOT_BIN1"
 		(shape input)
 		(at 69.85 90.17 180)
 		(effects
@@ -2070,7 +2248,7 @@
 		)
 		(uuid "53ceecac-b0ab-4fb6-b836-a36a83390922")
 	)
-	(hierarchical_label "BIN2"
+	(hierarchical_label "MOT_BIN2"
 		(shape input)
 		(at 69.85 92.71 180)
 		(effects
@@ -2081,7 +2259,7 @@
 		)
 		(uuid "7a198be5-687f-4582-a53f-080abf688fc0")
 	)
-	(hierarchical_label "nSLEEP"
+	(hierarchical_label "MOT_nSLEEP"
 		(shape input)
 		(at 72.39 72.39 180)
 		(effects
@@ -2103,7 +2281,7 @@
 		)
 		(uuid "b197f625-28ab-45ef-b7c2-d18b7673461a")
 	)
-	(hierarchical_label "AIN1"
+	(hierarchical_label "MOT_AIN1"
 		(shape input)
 		(at 69.85 85.09 180)
 		(effects
@@ -2114,7 +2292,7 @@
 		)
 		(uuid "bcdbffa5-e7f5-4297-849b-1f5623f05712")
 	)
-	(hierarchical_label "AIN2"
+	(hierarchical_label "MOT_AIN2"
 		(shape input)
 		(at 69.85 87.63 180)
 		(effects
@@ -2136,7 +2314,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "04c30f2c-3b39-42e3-a3bc-44263fbe0685")
-		(property "Reference" "R17"
+		(property "Reference" "R20"
 			(at 57.15 74.422 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2156,7 +2334,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 57.15 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -2189,6 +2367,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part#" "C2840871"
+			(at 57.15 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "35da825c-f70c-4ad6-98a3-9d99520b9526")
 		)
@@ -2198,7 +2387,7 @@
 		(instances
 			(project "projet"
 				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/4514bd7e-b14a-4ac6-acb6-eee8829a059e"
-					(reference "R17")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -2213,10 +2402,10 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "17ba1ce9-d22f-47d4-b8c8-712cbbf9e2b6")
-		(property "Reference" "R16"
+		(property "Reference" "R21"
 			(at 57.15 83.058 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2236,7 +2425,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 57.15 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -2260,6 +2449,17 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 57.15 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part#" "C2840871"
+			(at 57.15 80.01 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2284,89 +2484,7 @@
 			)
 			(project "projet"
 				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/4514bd7e-b14a-4ac6-acb6-eee8829a059e"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 113.03 57.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3a3bf7d2-8178-43cf-b228-df3af17d00f5")
-		(property "Reference" "C25"
-			(at 115.57 55.8799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470u/25V"
-			(at 115.57 58.4199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
-			(at 113.03 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 113.03 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7794d9ec-9011-42f0-95e8-4f402c1e67e1")
-		)
-		(pin "1"
-			(uuid "143f544b-2c5f-4879-a9f7-4b67c8103667")
-		)
-		(instances
-			(project "projet"
-				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/4514bd7e-b14a-4ac6-acb6-eee8829a059e"
-					(reference "C25")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -2384,7 +2502,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "448071d9-bbb6-4498-a4c0-79285c9c10fc")
-		(property "Reference" "C24"
+		(property "Reference" "C27"
 			(at 104.14 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2406,7 +2524,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 101.6 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -2439,6 +2557,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part#" "C96446"
+			(at 101.6 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c5fb15bc-b2b2-4d80-8825-deef3b908878")
 		)
@@ -2448,7 +2577,7 @@
 		(instances
 			(project "projet"
 				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/4514bd7e-b14a-4ac6-acb6-eee8829a059e"
-					(reference "C24")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -2466,7 +2595,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49b7addf-2e3e-42e8-ac32-b1d13acf41e7")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR047"
 			(at 113.03 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -2532,7 +2661,7 @@
 			)
 			(project "projet"
 				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/4514bd7e-b14a-4ac6-acb6-eee8829a059e"
-					(reference "#PWR036")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -2550,7 +2679,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4fe19581-8963-4ed0-9996-2a233d9cdaea")
-		(property "Reference" "C23"
+		(property "Reference" "C26"
 			(at 87.63 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2572,7 +2701,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 90.17 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -2605,6 +2734,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part#" "C12530"
+			(at 90.17 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "116dc2ba-755a-473e-a7a5-3d4dd58667d5")
 		)
@@ -2620,7 +2760,100 @@
 			)
 			(project "projet"
 				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/4514bd7e-b14a-4ac6-acb6-eee8829a059e"
-					(reference "C23")
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 113.03 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50fa3e23-cc62-4992-a2b6-cd04d4d9769b")
+		(property "Reference" "C28"
+			(at 115.57 55.3338 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470u/25V"
+			(at 115.57 57.8738 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10.5"
+			(at 113.03 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 113.03 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part#" "C3829835"
+			(at 113.03 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fb4fe5f3-ef61-4b97-a266-02efacdf5598")
+		)
+		(pin "2"
+			(uuid "f232161f-c921-4f32-96ca-cef20ef3ef46")
+		)
+		(instances
+			(project "projet"
+				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/4514bd7e-b14a-4ac6-acb6-eee8829a059e"
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -2638,7 +2871,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52bdad06-eed8-4ac3-ae40-6e8c06a80906")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR045"
 			(at 101.6 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -2704,7 +2937,7 @@
 			)
 			(project "projet"
 				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/4514bd7e-b14a-4ac6-acb6-eee8829a059e"
-					(reference "#PWR029")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -2769,6 +3002,17 @@
 			)
 		)
 		(property "Description" "Dual H-Bridge Motor Driver, HTSSOP-16"
+			(at 85.09 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part#" "C50506"
 			(at 85.09 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -2857,7 +3101,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6eef4087-77d7-4b15-9873-b503e3358986")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR042"
 			(at 78.74 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -2923,7 +3167,7 @@
 			)
 			(project "projet"
 				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/4514bd7e-b14a-4ac6-acb6-eee8829a059e"
-					(reference "#PWR030")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -2941,7 +3185,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ac2e1a9-bd5a-48e0-ae52-978783529c6f")
-		(property "Reference" "J5"
+		(property "Reference" "J6"
 			(at 205.74 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2963,7 +3207,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_VH_S6P-VH_1x06_P3.96mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical"
 			(at 203.2 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2986,6 +3230,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 203.2 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part#" "C265366"
 			(at 203.2 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -3023,7 +3278,7 @@
 			)
 			(project "projet"
 				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/4514bd7e-b14a-4ac6-acb6-eee8829a059e"
-					(reference "J5")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -3041,7 +3296,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c458dc4-ba2e-4611-9880-caa15584d45c")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR041"
 			(at 52.07 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -3107,7 +3362,7 @@
 			)
 			(project "projet"
 				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/4514bd7e-b14a-4ac6-acb6-eee8829a059e"
-					(reference "#PWR028")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -3125,7 +3380,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80bf878f-70ae-4889-af4c-abace2de8d0a")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR049"
 			(at 173.99 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -3192,7 +3447,7 @@
 			)
 			(project "projet"
 				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/4514bd7e-b14a-4ac6-acb6-eee8829a059e"
-					(reference "#PWR032")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -3210,7 +3465,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "846e2d6a-aea1-49b7-aa42-8964b5b0d1c3")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR051"
 			(at 177.8 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -3276,7 +3531,7 @@
 			)
 			(project "projet"
 				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/4514bd7e-b14a-4ac6-acb6-eee8829a059e"
-					(reference "#PWR034")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -3294,7 +3549,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86e0022e-bd85-44f4-93fd-7d9f9abb2323")
-		(property "Reference" "C12"
+		(property "Reference" "C25"
 			(at 63.5 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3316,7 +3571,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 60.96 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -3349,6 +3604,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part#" "C15195"
+			(at 60.96 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0c898348-51f8-424d-b418-57b8a9f8a96c")
 		)
@@ -3364,7 +3630,7 @@
 			)
 			(project "projet"
 				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/4514bd7e-b14a-4ac6-acb6-eee8829a059e"
-					(reference "C12")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -3382,7 +3648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "944f8627-52db-4f19-9067-45d147a2c930")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR046"
 			(at 105.41 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -3442,7 +3708,7 @@
 		(instances
 			(project "projet"
 				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/4514bd7e-b14a-4ac6-acb6-eee8829a059e"
-					(reference "#PWR037")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -3460,7 +3726,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab1e7966-18da-44c7-8a33-9b7114aecb96")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 205.74 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3482,7 +3748,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_VH_S6P-VH_1x06_P3.96mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical"
 			(at 203.2 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3505,6 +3771,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 203.2 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part#" "C265366"
 			(at 203.2 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3542,7 +3819,7 @@
 			)
 			(project "projet"
 				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/4514bd7e-b14a-4ac6-acb6-eee8829a059e"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -3560,7 +3837,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b70d18a5-2a2c-49cd-ba21-6a4eab8472d2")
-		(property "Reference" "R18"
+		(property "Reference" "R22"
 			(at 108.458 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3580,7 +3857,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 105.41 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -3613,6 +3890,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part#" "C25804"
+			(at 105.41 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "535f782a-b7f9-4973-a1c6-90b41ba017d4")
 		)
@@ -3622,7 +3910,7 @@
 		(instances
 			(project "projet"
 				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/4514bd7e-b14a-4ac6-acb6-eee8829a059e"
-					(reference "R18")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -3640,7 +3928,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba5867a7-bc30-4316-ba68-1f5ee920fda8")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR043"
 			(at 85.09 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -3706,7 +3994,85 @@
 			)
 			(project "projet"
 				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/4514bd7e-b14a-4ac6-acb6-eee8829a059e"
-					(reference "#PWR027")
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 92.71 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3a35e34-4a26-499d-ac33-cdcc13e4a442")
+		(property "Reference" "#PWR044"
+			(at 92.71 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 92.71 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 92.71 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "20002485-e1db-4347-a59e-5fdd9fe0556f")
+		)
+		(instances
+			(project "projet"
+				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/4514bd7e-b14a-4ac6-acb6-eee8829a059e"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -3724,7 +4090,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3a6a7de-349c-4224-9ffc-9d236a5abe94")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR050"
 			(at 176.53 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -3790,7 +4156,7 @@
 			)
 			(project "projet"
 				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/4514bd7e-b14a-4ac6-acb6-eee8829a059e"
-					(reference "#PWR033")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -3808,7 +4174,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbcd90a3-7b3d-4e6a-9f9b-6f13bc6f53fb")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR048"
 			(at 172.72 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -3875,85 +4241,7 @@
 			)
 			(project "projet"
 				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/4514bd7e-b14a-4ac6-acb6-eee8829a059e"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 92.71 46.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dd501ad3-12ff-457b-91f2-796dbfe00db7")
-		(property "Reference" "#PWR031"
-			(at 92.71 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V_USB"
-			(at 92.71 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 92.71 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "03fce89b-1d52-416e-ac7b-57e6467c7ba1")
-		)
-		(instances
-			(project "projet"
-				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/4514bd7e-b14a-4ac6-acb6-eee8829a059e"
-					(reference "#PWR031")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
