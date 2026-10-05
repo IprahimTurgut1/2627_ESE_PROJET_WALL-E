@@ -880,6 +880,12 @@
 		(uuid "0bfba1b2-75d8-4e66-8a1f-382a77052faf")
 	)
 	(junction
+		(at 204.47 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "133fb3f4-19bd-4d73-9a5a-3f0cbec9232f")
+	)
+	(junction
 		(at 36.83 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1307,6 +1313,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 82.55) (xy 214.63 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f8c8c18-3d36-42bb-9972-1fd56ed1e203")
+	)
+	(wire
+		(pts
 			(xy 151.13 96.52) (xy 143.51 96.52)
 		)
 		(stroke
@@ -1317,7 +1333,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 82.55) (xy 214.63 82.55)
+			(xy 187.96 82.55) (xy 204.47 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2477,6 +2493,81 @@
 			(project "projet"
 				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/23293480-63ec-471b-bf54-55169cccd8a3"
 					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 204.47 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9a69e816-77d3-4f9b-96e9-df2dba06c2f0")
+		(property "Reference" "#PWR056"
+			(at 204.47 86.106 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 204.47 78.994 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "76e4830e-9d71-45fa-8d5a-74692ee01d99")
+		)
+		(instances
+			(project "projet"
+				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/23293480-63ec-471b-bf54-55169cccd8a3"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)

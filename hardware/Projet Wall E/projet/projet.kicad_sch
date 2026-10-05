@@ -137,7 +137,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "4514bd7e-b14a-4ac6-acb6-eee8829a059e")
-		(property "Sheetname" "Puissance"
+		(property "Sheetname" "Moteur"
 			(at 53.34 102.1584 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -148,7 +148,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "puissance.kicad_sch"
+		(property "Sheetfile" "moteur.kicad_sch"
 			(at 53.34 147.9046 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -482,8 +482,8 @@
 			)
 		)
 		(pin "CHG_INT" output
-			(at 100.33 53.34 0)
-			(uuid "9f5c9eac-f25d-457e-a734-f12dcb51883d")
+			(at 100.33 50.8 0)
+			(uuid "5931bd5c-4c38-47ed-ab59-6af5c76efbb6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -492,8 +492,8 @@
 			)
 		)
 		(pin "CHG_OTG" output
-			(at 100.33 58.42 0)
-			(uuid "273ee3cf-4ab5-457e-96e7-f9071596405d")
+			(at 100.33 53.34 0)
+			(uuid "be318979-b87b-48dd-8185-6f3f69482528")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -501,39 +501,9 @@
 				(justify right)
 			)
 		)
-		(pin "SCL" input
-			(at 100.33 63.5 0)
-			(uuid "960f9de5-56ee-403e-bdc4-95ef2ac7e5cd")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SDA" bidirectional
-			(at 100.33 69.85 0)
-			(uuid "4bfd0a04-14e5-44e8-a865-dc9b01dea5d6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "5V_MOT" output
-			(at 100.33 74.93 0)
-			(uuid "1e3434b1-f745-4aa1-b938-b21549ab06de")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VSYS" passive
-			(at 100.33 78.74 0)
-			(uuid "0ee4b791-1ddb-413c-9ce9-b4745b96932e")
+		(pin "CHG_PG" output
+			(at 100.33 55.88 0)
+			(uuid "b14d49ae-d924-40e0-8329-a898bb8ad0e5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -542,8 +512,48 @@
 			)
 		)
 		(pin "GAUGE_INT" output
-			(at 100.33 85.09 0)
-			(uuid "e7b4513a-0b23-46b9-93c5-95b29ab9a0e7")
+			(at 100.33 58.42 0)
+			(uuid "451e07a4-7309-47a8-9193-cfef66da6e54")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" input
+			(at 100.33 66.04 0)
+			(uuid "9c51b756-3ed6-4c9d-9e9e-717a08c9e5dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 100.33 68.58 0)
+			(uuid "1aa02833-4543-463f-98cf-4454526d229c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DM" bidirectional
+			(at 100.33 73.66 0)
+			(uuid "e873a8c4-e166-43d1-bd7b-d50a0d683d65")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DP" bidirectional
+			(at 100.33 76.2 0)
+			(uuid "89a99e56-0047-404d-af8c-7d8e185e228b")
 			(effects
 				(font
 					(size 1.27 1.27)

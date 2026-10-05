@@ -510,6 +510,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -632,7 +633,7 @@
         "uuid": "aad9219d-d686-4d68-8dbb-b3c2b0727159"
       }
     ],
-    "used_designators": "U1,U3,R15-17,D2,#PWR27-28,Q1-2",
+    "used_designators": "U6,#PWR56",
     "variants": []
   },
   "sheets": [
@@ -650,7 +651,7 @@
     ],
     [
       "4514bd7e-b14a-4ac6-acb6-eee8829a059e",
-      "Puissance"
+      "Moteur"
     ],
     [
       "23293480-63ec-471b-bf54-55169cccd8a3",
