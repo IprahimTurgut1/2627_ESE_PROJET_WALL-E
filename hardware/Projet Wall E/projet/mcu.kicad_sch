@@ -6393,7 +6393,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Parts" "C431633"
+		(property "JLCPCB Part#" "C431633"
 			(at 165.1 111.76 0)
 			(hide yes)
 			(show_name no)
