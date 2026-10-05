@@ -1652,7 +1652,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0c16893e-0f40-46e7-af58-af56221fdbf9")
-		(property "Reference" "C26"
+		(property "Reference" "C502"
 			(at 45.085 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1705,7 +1705,40 @@
 				)
 			)
 		)
-		(property "JLCPCB Part" "C15525"
+		(property "JLCPCB Part" ""
+			(at 43.18 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part#" "C15525"
+			(at 43.18 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 43.18 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 43.18 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -1725,7 +1758,7 @@
 		(instances
 			(project "projet"
 				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/23293480-63ec-471b-bf54-55169cccd8a3"
-					(reference "C26")
+					(reference "C502")
 					(unit 1)
 				)
 			)
@@ -1742,7 +1775,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "118a12c3-8f19-40f4-b728-0009abe1f837")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR0504"
 			(at 113.03 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -1800,7 +1833,7 @@
 		(instances
 			(project "projet"
 				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/23293480-63ec-471b-bf54-55169cccd8a3"
-					(reference "#PWR051")
+					(reference "#PWR0504")
 					(unit 1)
 				)
 			)
@@ -1817,7 +1850,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1457e1bb-e928-4c4b-92ee-df6b99f39382")
-		(property "Reference" "C27"
+		(property "Reference" "C503"
 			(at 108.585 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1870,7 +1903,40 @@
 				)
 			)
 		)
-		(property "JLCPCB Part" "C1525"
+		(property "JLCPCB Part" ""
+			(at 106.68 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part#" "C1525"
+			(at 106.68 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 106.68 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 106.68 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -1890,7 +1956,7 @@
 		(instances
 			(project "projet"
 				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/23293480-63ec-471b-bf54-55169cccd8a3"
-					(reference "C27")
+					(reference "C503")
 					(unit 1)
 				)
 			)
@@ -1907,7 +1973,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1ccc0f61-20e8-4f71-a367-cfed52f8b30d")
-		(property "Reference" "J8"
+		(property "Reference" "J503"
 			(at 222.25 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1960,6 +2026,39 @@
 				)
 			)
 		)
+		(property "JLCPCB Part#" "C37208"
+			(at 219.71 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 219.71 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 219.71 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "84412250-8bdf-42c7-b596-081e0e79b422")
 		)
@@ -1981,7 +2080,7 @@
 		(instances
 			(project "projet"
 				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/23293480-63ec-471b-bf54-55169cccd8a3"
-					(reference "J8")
+					(reference "J503")
 					(unit 1)
 				)
 			)
@@ -1998,7 +2097,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "26a905bf-ceb9-4e43-9803-9560436c6073")
-		(property "Reference" "#PWR49"
+		(property "Reference" "#PWR0511"
 			(at 260.35 84.836 0)
 			(hide yes)
 			(show_name no)
@@ -2056,7 +2155,7 @@
 		(instances
 			(project "projet"
 				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/23293480-63ec-471b-bf54-55169cccd8a3"
-					(reference "#PWR49")
+					(reference "#PWR0511")
 					(unit 1)
 				)
 			)
@@ -2073,7 +2172,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "280b4197-89fd-4036-956a-757c67806970")
-		(property "Reference" "C25"
+		(property "Reference" "C501"
 			(at 32.385 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2126,7 +2225,40 @@
 				)
 			)
 		)
-		(property "JLCPCB Part" "C1525"
+		(property "JLCPCB Part" ""
+			(at 30.48 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part#" "C1525"
+			(at 30.48 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 30.48 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 30.48 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -2146,7 +2278,7 @@
 		(instances
 			(project "projet"
 				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/23293480-63ec-471b-bf54-55169cccd8a3"
-					(reference "C25")
+					(reference "C501")
 					(unit 1)
 				)
 			)
@@ -2163,7 +2295,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3404cdc0-3572-488a-bdc8-6f99ae49ed5d")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR0501"
 			(at 36.83 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -2221,7 +2353,7 @@
 		(instances
 			(project "projet"
 				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/23293480-63ec-471b-bf54-55169cccd8a3"
-					(reference "#PWR050")
+					(reference "#PWR0501")
 					(unit 1)
 				)
 			)
@@ -2238,7 +2370,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "612a5f14-fc6f-423d-b878-764fdd6bb2a1")
-		(property "Reference" "#PWR31"
+		(property "Reference" "#PWR0503"
 			(at 58.42 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -2296,7 +2428,7 @@
 		(instances
 			(project "projet"
 				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/23293480-63ec-471b-bf54-55169cccd8a3"
-					(reference "#PWR31")
+					(reference "#PWR0503")
 					(unit 1)
 				)
 			)
@@ -2313,7 +2445,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6a0987e8-00bc-4d54-bae0-8b48e27ec8cd")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR0507"
 			(at 186.69 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -2371,7 +2503,7 @@
 		(instances
 			(project "projet"
 				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/23293480-63ec-471b-bf54-55169cccd8a3"
-					(reference "#PWR052")
+					(reference "#PWR0507")
 					(unit 1)
 				)
 			)
@@ -2388,7 +2520,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "76536498-199b-40aa-9c79-353b5e4338e0")
-		(property "Reference" "C28"
+		(property "Reference" "C504"
 			(at 121.285 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2441,7 +2573,40 @@
 				)
 			)
 		)
-		(property "JLCPCB Part" "C15525"
+		(property "JLCPCB Part" ""
+			(at 119.38 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part#" "C15525"
+			(at 119.38 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 119.38 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 119.38 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -2461,7 +2626,7 @@
 		(instances
 			(project "projet"
 				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/23293480-63ec-471b-bf54-55169cccd8a3"
-					(reference "C28")
+					(reference "C504")
 					(unit 1)
 				)
 			)
@@ -2478,7 +2643,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "89844a5b-e6fd-436d-8f19-69e3a7062a16")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR0505"
 			(at 130.81 87.376 0)
 			(hide yes)
 			(show_name no)
@@ -2536,7 +2701,7 @@
 		(instances
 			(project "projet"
 				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/23293480-63ec-471b-bf54-55169cccd8a3"
-					(reference "#PWR054")
+					(reference "#PWR0505")
 					(unit 1)
 				)
 			)
@@ -2553,7 +2718,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9a69e816-77d3-4f9b-96e9-df2dba06c2f0")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR0509"
 			(at 204.47 86.106 0)
 			(hide yes)
 			(show_name no)
@@ -2611,7 +2776,7 @@
 		(instances
 			(project "projet"
 				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/23293480-63ec-471b-bf54-55169cccd8a3"
-					(reference "#PWR056")
+					(reference "#PWR0509")
 					(unit 1)
 				)
 			)
@@ -2628,7 +2793,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9ac4120c-9ecb-442e-9b7b-57835c07b54d")
-		(property "Reference" "#PWR43"
+		(property "Reference" "#PWR0508"
 			(at 201.93 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -2686,7 +2851,7 @@
 		(instances
 			(project "projet"
 				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/23293480-63ec-471b-bf54-55169cccd8a3"
-					(reference "#PWR43")
+					(reference "#PWR0508")
 					(unit 1)
 				)
 			)
@@ -2703,7 +2868,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9ecfcf82-1ace-4ec7-901d-01672696b16c")
-		(property "Reference" "#PWR48"
+		(property "Reference" "#PWR0510"
 			(at 241.3 84.836 0)
 			(hide yes)
 			(show_name no)
@@ -2761,7 +2926,7 @@
 		(instances
 			(project "projet"
 				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/23293480-63ec-471b-bf54-55169cccd8a3"
-					(reference "#PWR48")
+					(reference "#PWR0510")
 					(unit 1)
 				)
 			)
@@ -2778,7 +2943,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a07608af-db80-4a62-8d5b-b07b2f58f6e8")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR0502"
 			(at 55.88 88.646 0)
 			(hide yes)
 			(show_name no)
@@ -2836,7 +3001,7 @@
 		(instances
 			(project "projet"
 				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/23293480-63ec-471b-bf54-55169cccd8a3"
-					(reference "#PWR055")
+					(reference "#PWR0502")
 					(unit 1)
 				)
 			)
@@ -2853,7 +3018,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "c71968e7-c510-4f84-b3eb-ff473d251bae")
-		(property "Reference" "R18"
+		(property "Reference" "R501"
 			(at 243.84 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2906,7 +3071,40 @@
 				)
 			)
 		)
-		(property "JLCPCB Part" "C850286"
+		(property "JLCPCB Part" ""
+			(at 241.3 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part#" "C850286"
+			(at 241.3 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 241.3 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 241.3 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2926,7 +3124,7 @@
 		(instances
 			(project "projet"
 				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/23293480-63ec-471b-bf54-55169cccd8a3"
-					(reference "R18")
+					(reference "R501")
 					(unit 1)
 				)
 			)
@@ -2943,7 +3141,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cde727d9-5b65-4e0b-b38a-ce3ee9575576")
-		(property "Reference" "#PWR37"
+		(property "Reference" "#PWR0506"
 			(at 138.43 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -3001,7 +3199,7 @@
 		(instances
 			(project "projet"
 				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/23293480-63ec-471b-bf54-55169cccd8a3"
-					(reference "#PWR37")
+					(reference "#PWR0506")
 					(unit 1)
 				)
 			)
@@ -3018,7 +3216,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ce135a21-5da4-4afe-8eda-ff6aaf6c26ff")
-		(property "Reference" "C29"
+		(property "Reference" "C505"
 			(at 182.245 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3071,7 +3269,40 @@
 				)
 			)
 		)
-		(property "JLCPCB Part" "C1525"
+		(property "JLCPCB Part" ""
+			(at 180.34 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part#" "C1525"
+			(at 180.34 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 180.34 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 180.34 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -3091,7 +3322,7 @@
 		(instances
 			(project "projet"
 				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/23293480-63ec-471b-bf54-55169cccd8a3"
-					(reference "C29")
+					(reference "C505")
 					(unit 1)
 				)
 			)
@@ -3108,7 +3339,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ebed39ff-f9f2-49c4-9e70-aae9c242e6c6")
-		(property "Reference" "C30"
+		(property "Reference" "C506"
 			(at 194.945 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3161,7 +3392,40 @@
 				)
 			)
 		)
-		(property "JLCPCB Part" "C15525"
+		(property "JLCPCB Part" ""
+			(at 193.04 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part#" "C15525"
+			(at 193.04 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 193.04 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 193.04 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -3181,7 +3445,7 @@
 		(instances
 			(project "projet"
 				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/23293480-63ec-471b-bf54-55169cccd8a3"
-					(reference "C30")
+					(reference "C506")
 					(unit 1)
 				)
 			)
@@ -3198,7 +3462,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ec2ecd10-8c9d-448d-b747-1347374b82dc")
-		(property "Reference" "J6"
+		(property "Reference" "J501"
 			(at 78.74 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3251,6 +3515,39 @@
 				)
 			)
 		)
+		(property "JLCPCB Part#" "C37208"
+			(at 76.2 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 76.2 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 76.2 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "2c09dd92-158b-4ec3-a8ef-5b8dceb17f93")
 		)
@@ -3272,7 +3569,7 @@
 		(instances
 			(project "projet"
 				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/23293480-63ec-471b-bf54-55169cccd8a3"
-					(reference "J6")
+					(reference "J501")
 					(unit 1)
 				)
 			)
@@ -3289,7 +3586,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ef0b96d1-f46a-4e48-8f5e-2ee50f15c7c6")
-		(property "Reference" "J7"
+		(property "Reference" "J502"
 			(at 158.75 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3342,6 +3639,39 @@
 				)
 			)
 		)
+		(property "JLCPCB Part#" "C37208"
+			(at 156.21 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 156.21 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 156.21 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "e45d9fe5-cc04-4d09-b01d-bc14eb138f72")
 		)
@@ -3363,7 +3693,7 @@
 		(instances
 			(project "projet"
 				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/23293480-63ec-471b-bf54-55169cccd8a3"
-					(reference "J7")
+					(reference "J502")
 					(unit 1)
 				)
 			)
@@ -3380,7 +3710,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "f856ab47-dfa6-4f87-8a0e-ab55a5f750a9")
-		(property "Reference" "R19"
+		(property "Reference" "R502"
 			(at 262.89 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3433,7 +3763,40 @@
 				)
 			)
 		)
-		(property "JLCPCB Part" "C850286"
+		(property "JLCPCB Part" ""
+			(at 260.35 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part#" "C850286"
+			(at 260.35 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 260.35 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 260.35 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -3453,7 +3816,7 @@
 		(instances
 			(project "projet"
 				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/23293480-63ec-471b-bf54-55169cccd8a3"
-					(reference "R19")
+					(reference "R502")
 					(unit 1)
 				)
 			)
@@ -3464,4 +3827,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
