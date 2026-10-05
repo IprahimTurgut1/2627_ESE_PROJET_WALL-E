@@ -5475,12 +5475,6 @@
 			(uuid "3598f60c-773e-499d-9ac7-019214086ffa")
 		)
 		(instances
-			(project "projet"
-				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/8d7235a3-ed0d-4c0c-a716-b22c65fe70a8"
-					(reference "J1")
-					(unit 1)
-				)
-			)
 			(project "mcu"
 				(path "/d1f6b90d-1ee5-4a93-8c97-f2b0d96541e8"
 					(reference "J1")
@@ -5560,12 +5554,6 @@
 			(uuid "542e1e37-38cd-4a0d-8080-92838a812824")
 		)
 		(instances
-			(project "projet"
-				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/8d7235a3-ed0d-4c0c-a716-b22c65fe70a8"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
 			(project "mcu"
 				(path "/d1f6b90d-1ee5-4a93-8c97-f2b0d96541e8"
 					(reference "#PWR016")
@@ -5641,7 +5629,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C15195"
+		(property "JLCPCB Part#" "C15195 "
 			(at 88.9 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -5747,12 +5735,6 @@
 			(uuid "88ef2d59-f18f-4354-933e-8401d75aac5b")
 		)
 		(instances
-			(project "projet"
-				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/8d7235a3-ed0d-4c0c-a716-b22c65fe70a8"
-					(reference "JP1")
-					(unit 1)
-				)
-			)
 			(project "mcu"
 				(path "/d1f6b90d-1ee5-4a93-8c97-f2b0d96541e8"
 					(reference "JP1")
@@ -5832,12 +5814,6 @@
 			(uuid "6ca9c6ad-14d1-4a9f-a306-f5e485ea6dbf")
 		)
 		(instances
-			(project "projet"
-				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/8d7235a3-ed0d-4c0c-a716-b22c65fe70a8"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
 			(project "mcu"
 				(path "/d1f6b90d-1ee5-4a93-8c97-f2b0d96541e8"
 					(reference "#PWR034")
@@ -5916,12 +5892,6 @@
 			(uuid "81295c40-2c8a-4a5d-ad49-822480f49ba0")
 		)
 		(instances
-			(project "projet"
-				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/8d7235a3-ed0d-4c0c-a716-b22c65fe70a8"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
 			(project "mcu"
 				(path "/d1f6b90d-1ee5-4a93-8c97-f2b0d96541e8"
 					(reference "#PWR017")
@@ -6110,12 +6080,6 @@
 			(uuid "43884f4d-eb47-4113-95a6-72d53dc874e9")
 		)
 		(instances
-			(project "projet"
-				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/8d7235a3-ed0d-4c0c-a716-b22c65fe70a8"
-					(reference "D1")
-					(unit 1)
-				)
-			)
 			(project "mcu"
 				(path "/d1f6b90d-1ee5-4a93-8c97-f2b0d96541e8"
 					(reference "D1")
@@ -6198,12 +6162,6 @@
 			(uuid "8fe6d641-43e7-4ffe-90be-7d80af88cb2b")
 		)
 		(instances
-			(project "projet"
-				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/8d7235a3-ed0d-4c0c-a716-b22c65fe70a8"
-					(reference "JP2")
-					(unit 1)
-				)
-			)
 			(project "mcu"
 				(path "/d1f6b90d-1ee5-4a93-8c97-f2b0d96541e8"
 					(reference "JP2")
@@ -6269,6 +6227,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 100.33 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part#" "C15195 "
 			(at 100.33 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -6366,6 +6335,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part#" "C15195 "
+			(at 102.87 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "eff5bc9f-30a1-4ec9-9f03-d6e8e0f42047")
 		)
@@ -6444,6 +6424,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 113.03 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part#" "C15195"
 			(at 113.03 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -6545,12 +6536,6 @@
 			(uuid "d50ced40-0cb5-40a3-a998-cb6e9e550ae5")
 		)
 		(instances
-			(project "projet"
-				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/8d7235a3-ed0d-4c0c-a716-b22c65fe70a8"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
 			(project "mcu"
 				(path "/d1f6b90d-1ee5-4a93-8c97-f2b0d96541e8"
 					(reference "#PWR035")
@@ -6626,7 +6611,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C1525"
+		(property "JLCPCB Part#" "C15195"
 			(at 29.21 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -6716,17 +6701,6 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 128KB flash, 32KB RAM, 170 MHz, 1.71-3.6V, 52 GPIO, LQFP64"
-			(at 165.1 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C431633"
 			(at 165.1 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -7011,7 +6985,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C1525"
+		(property "JLCPCB Part#" "C15195 "
 			(at 57.15 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -7114,12 +7088,6 @@
 			(uuid "e0938d67-64b9-42f2-80f3-0352d0158b7b")
 		)
 		(instances
-			(project "projet"
-				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/8d7235a3-ed0d-4c0c-a716-b22c65fe70a8"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
 			(project "mcu"
 				(path "/d1f6b90d-1ee5-4a93-8c97-f2b0d96541e8"
 					(reference "#PWR013")
@@ -7276,6 +7244,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part#" "C15195 "
+			(at 119.38 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0d946f07-6c26-4272-8646-d406cf181e46")
 		)
@@ -7367,12 +7346,6 @@
 			(uuid "0fd18d4b-4cb7-49b8-8dcb-fba7b60a2f93")
 		)
 		(instances
-			(project "projet"
-				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/8d7235a3-ed0d-4c0c-a716-b22c65fe70a8"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
 			(project "mcu"
 				(path "/d1f6b90d-1ee5-4a93-8c97-f2b0d96541e8"
 					(reference "#PWR015")
@@ -7494,12 +7467,6 @@
 			(uuid "2a08212b-c2a6-4d41-8482-ce9c24e86425")
 		)
 		(instances
-			(project "projet"
-				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/8d7235a3-ed0d-4c0c-a716-b22c65fe70a8"
-					(reference "Y1")
-					(unit 1)
-				)
-			)
 			(project "mcu"
 				(path "/d1f6b90d-1ee5-4a93-8c97-f2b0d96541e8"
 					(reference "Y1")
@@ -7575,7 +7542,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C1525"
+		(property "JLCPCB Part#" "C15195"
 			(at 43.18 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -7718,12 +7685,6 @@
 			(uuid "86e61468-5c43-43a6-8a47-dfed460062ca")
 		)
 		(instances
-			(project "projet"
-				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/8d7235a3-ed0d-4c0c-a716-b22c65fe70a8"
-					(reference "J2")
-					(unit 1)
-				)
-			)
 			(project "mcu"
 				(path "/d1f6b90d-1ee5-4a93-8c97-f2b0d96541e8"
 					(reference "J2")
@@ -7817,12 +7778,6 @@
 			(uuid "2c46d5a8-aa54-463e-8187-81fb9fd72dc8")
 		)
 		(instances
-			(project "projet"
-				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/8d7235a3-ed0d-4c0c-a716-b22c65fe70a8"
-					(reference "R4")
-					(unit 1)
-				)
-			)
 			(project "mcu"
 				(path "/d1f6b90d-1ee5-4a93-8c97-f2b0d96541e8"
 					(reference "R4")
@@ -7898,7 +7853,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C1525"
+		(property "JLCPCB Part#" "C15195"
 			(at 15.24 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -8099,12 +8054,6 @@
 			(uuid "80f8ee52-9d1f-474f-8099-622f517fcfa8")
 		)
 		(instances
-			(project "projet"
-				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/8d7235a3-ed0d-4c0c-a716-b22c65fe70a8"
-					(reference "R3")
-					(unit 1)
-				)
-			)
 			(project "mcu"
 				(path "/d1f6b90d-1ee5-4a93-8c97-f2b0d96541e8"
 					(reference "R3")
@@ -8209,12 +8158,6 @@
 			(uuid "d6e5084d-02f0-4520-a17c-9cba4706596e")
 		)
 		(instances
-			(project "projet"
-				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/8d7235a3-ed0d-4c0c-a716-b22c65fe70a8"
-					(reference "D2")
-					(unit 1)
-				)
-			)
 			(project "mcu"
 				(path "/d1f6b90d-1ee5-4a93-8c97-f2b0d96541e8"
 					(reference "D2")
@@ -8280,6 +8223,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 72.39 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part#" "C15195 "
 			(at 72.39 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -8378,6 +8332,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part#" "C15195"
+			(at 127 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b4a35026-c571-4d53-afaf-c0533c578291")
 		)
@@ -8385,12 +8350,6 @@
 			(uuid "665a2e55-8dd1-4a08-930c-df40f1d18a93")
 		)
 		(instances
-			(project "projet"
-				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/8d7235a3-ed0d-4c0c-a716-b22c65fe70a8"
-					(reference "C23")
-					(unit 1)
-				)
-			)
 			(project "mcu"
 				(path "/d1f6b90d-1ee5-4a93-8c97-f2b0d96541e8"
 					(reference "C23")
@@ -8460,6 +8419,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part#" "C15195"
+			(at 119.38 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
 				)
 			)
 		)
@@ -8573,4 +8544,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
