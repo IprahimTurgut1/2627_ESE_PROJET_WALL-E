@@ -6393,6 +6393,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Parts" "C431633"
+			(at 165.1 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "9"
 			(uuid "b81a7347-c8c4-4527-afe7-b0f4ec9ab154")
 		)
