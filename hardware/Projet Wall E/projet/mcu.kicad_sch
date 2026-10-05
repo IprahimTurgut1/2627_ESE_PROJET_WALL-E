@@ -3936,16 +3936,6 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 127) (xy 243.84 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c8b1173-7c80-4942-a2f6-c34b069c9b9d")
-	)
-	(wire
-		(pts
 			(xy 143.51 45.72) (xy 143.51 71.12)
 		)
 		(stroke
@@ -4166,6 +4156,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 129.54) (xy 224.79 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "711bb0ec-2eef-4db1-a9ca-e7ed0e1772fb")
+	)
+	(wire
+		(pts
 			(xy 147.32 71.12) (xy 143.51 71.12)
 		)
 		(stroke
@@ -4223,16 +4223,6 @@
 			(type default)
 		)
 		(uuid "7b7e5fac-cfc2-4910-beb8-c36462c3e4aa")
-	)
-	(wire
-		(pts
-			(xy 236.22 129.54) (xy 243.84 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e1e4822-6eee-4804-a6dd-f8df28ec19c4")
 	)
 	(wire
 		(pts
@@ -4746,7 +4736,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 121.92) (xy 238.76 127)
+			(xy 224.79 121.92) (xy 224.79 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5132,7 +5122,7 @@
 	)
 	(hierarchical_label "SERVO_PWM"
 		(shape output)
-		(at 236.22 129.54 180)
+		(at 243.84 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5495,7 +5485,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 238.76 121.92 0)
+		(at 224.79 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5506,7 +5496,7 @@
 		(fields_autoplaced yes)
 		(uuid "2fb45c15-c00c-4ee0-a21b-9c2101fc0025")
 		(property "Reference" "#PWR034"
-			(at 238.76 125.73 0)
+			(at 224.79 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5516,8 +5506,8 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 241.3 120.6499 0)
+		(property "Value" "VBUS"
+			(at 227.33 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5528,7 +5518,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 121.92 0)
+			(at 224.79 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5539,7 +5529,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 121.92 0)
+			(at 224.79 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5550,7 +5540,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 238.76 121.92 0)
+			(at 224.79 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
