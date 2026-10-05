@@ -7214,7 +7214,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 237.7948 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -7247,7 +7247,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part" ""
+		(property "JLCPCB Parts" "C19702"
 			(at 238.76 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -7329,6 +7329,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 176.53 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Parts" "C25867"
 			(at 176.53 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -7463,7 +7474,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 226.3648 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -7496,7 +7507,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part" ""
+		(property "JLCPCB Parts" "C19702"
 			(at 227.33 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -7670,6 +7681,17 @@
 				(justify left)
 			)
 		)
+		(property "JLCPCB Parts" "C261283"
+			(at 154.94 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3314457c-e416-493e-8280-e6b83999911d")
 		)
@@ -7755,6 +7777,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Parts" "C25905"
+			(at 93.98 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c125f670-7475-4cfa-8947-06ab60a063db")
 		)
@@ -7781,7 +7814,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "198d4d39-91f2-4f9b-bc78-4534c5f3d59f")
-		(property "Reference" "R18"
+		(property "Reference" "R31"
 			(at 135.382 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7803,7 +7836,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 137.16 77.978 90)
 			(hide yes)
 			(show_name no)
@@ -7836,6 +7869,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Parts" "C25076"
+			(at 137.16 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "eaacba0e-b4ea-4e62-b324-cca837dcd85e")
 		)
@@ -7845,7 +7889,7 @@
 		(instances
 			(project "projet"
 				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/bd811c64-dff7-4046-86a6-8e854625b7a5"
-					(reference "R18")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -7996,6 +8040,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Parts" "C25879"
+			(at 214.63 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2fb6d658-2031-42f0-b021-5cada786454c")
 		)
@@ -8042,7 +8097,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 234.188 71.12 90)
 			(hide yes)
 			(show_name no)
@@ -8065,6 +8120,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 232.41 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Parts" "C98889"
 			(at 232.41 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -8201,7 +8267,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 186.182 81.28 90)
 			(hide yes)
 			(show_name no)
@@ -8224,6 +8290,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 187.96 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Parts" "C25117"
 			(at 187.96 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -8393,6 +8470,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Parts" "C460236"
+			(at 173.99 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "163d12a6-5421-42bc-9de3-211cae454ba5")
 		)
@@ -8488,6 +8576,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Parts" "C155244"
+			(at 158.75 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "89b793fc-f0db-484a-9a34-7ffb0b494915")
 		)
@@ -8539,7 +8638,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 218.7448 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -8572,7 +8671,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part" ""
+		(property "JLCPCB Parts" "C19666"
 			(at 219.71 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -8675,6 +8774,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Parts" "C2286"
+			(at 214.63 24.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b7c43f06-73f5-4a26-9ff4-56396caf19de")
 		)
@@ -8723,7 +8833,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 31.4452 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -8746,6 +8856,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 30.48 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Parts" "C19702"
 			(at 30.48 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -8838,7 +8959,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part" ""
+		(property "JLCPCB Parts" "C52923"
 			(at 158.75 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -8975,7 +9096,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 145.542 87.63 90)
 			(hide yes)
 			(show_name no)
@@ -8998,6 +9119,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 147.32 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Parts" "C25744"
 			(at 147.32 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -9287,7 +9419,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 233.9848 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -9320,7 +9452,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part" ""
+		(property "JLCPCB Parts" "C19702"
 			(at 234.95 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -9689,7 +9821,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 212.852 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -9712,6 +9844,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 214.63 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Parts" "C25744"
 			(at 214.63 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -9794,6 +9937,17 @@
 			)
 		)
 		(property "Description" "200mA IC, 160V Vce, Dual PNP/PNP Transistors, SOT-363"
+			(at 156.21 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Parts" "C460236"
 			(at 156.21 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -9897,6 +10051,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Parts" "C25867"
+			(at 181.61 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4269d9a6-42b1-4577-bd11-05e3f13b323c")
 		)
@@ -9945,7 +10110,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 216.408 81.28 90)
 			(hide yes)
 			(show_name no)
@@ -9968,6 +10133,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 214.63 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Parts" "C25744"
 			(at 214.63 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -10024,7 +10200,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 93.98 156.718 90)
 			(hide yes)
 			(show_name no)
@@ -10048,6 +10224,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 93.98 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Parts" "C25744"
+			(at 93.98 154.94 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10206,6 +10393,17 @@
 		)
 		(property "Description" "I2C Controlled Single Cell (Li-Ion / Li-Polymer) 5A Fast Charger with MaxCharge, USB BC1.2 Detection, 3.9..14V VBUS, 3.840..4.608V charge voltage range, 1.5 MHz (buck mode) and 500 kHz /1.5 MHz (boost mode), WQFN-24"
 			(at 201.93 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Parts" "C181475"
+			(at 201.93 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10444,6 +10642,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Parts" "C12530"
+			(at 110.49 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9a5eaabc-ad1b-4bd8-b7fb-655529c63d77")
 		)
@@ -10603,6 +10812,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Parts" "C25900"
+			(at 170.18 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "423c371c-1bd8-4a28-9079-a9ebfdfa201f")
 		)
@@ -10675,6 +10895,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 85.09 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Parts" "C25905"
 			(at 85.09 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -11076,6 +11307,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Parts" "C52923"
+			(at 35.56 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7f445c73-d70e-4584-a636-f7d1dd785f54")
 		)
@@ -11151,6 +11393,17 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+			(at 86.36 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Parts" "C7519"
 			(at 86.36 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -11277,7 +11530,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "849899f5-0cbd-43ce-953f-d3f21e6c3daa")
-		(property "Reference" "R19"
+		(property "Reference" "R30"
 			(at 138.938 59.944 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11299,7 +11552,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 141.732 63.5 90)
 			(hide yes)
 			(show_name no)
@@ -11332,6 +11585,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Parts" "C25744"
+			(at 143.51 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e53b2262-91a9-4a5b-be6b-446a9ec26567")
 		)
@@ -11341,7 +11605,7 @@
 		(instances
 			(project "projet"
 				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/bd811c64-dff7-4046-86a6-8e854625b7a5"
-					(reference "R19")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -11378,7 +11642,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
 			(at 240.03 81.788 90)
 			(hide yes)
 			(show_name no)
@@ -11402,6 +11666,17 @@
 		)
 		(property "Description" "Fuse"
 			(at 240.03 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Parts" "C545216"
+			(at 240.03 80.01 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11515,6 +11790,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Parts" "C81598"
+			(at 139.7 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "08a827d6-88a5-43fb-81ec-ee7e9c1c5b0c")
 		)
@@ -11596,7 +11882,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part" ""
+		(property "JLCPCB Parts" "C307434"
 			(at 220.98 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -11655,7 +11941,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 59.3852 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -11678,6 +11964,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 58.42 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Parts" "C19702"
 			(at 58.42 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -11715,7 +12012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ad0f937-2971-4727-8206-523a287ed028")
-		(property "Reference" "R17"
+		(property "Reference" "R32"
 			(at 179.07 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11770,6 +12067,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Parts" "C25741"
+			(at 176.53 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "74069365-438e-4ed0-b17f-fd979f4784c5")
 		)
@@ -11779,7 +12087,7 @@
 		(instances
 			(project "projet"
 				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/bd811c64-dff7-4046-86a6-8e854625b7a5"
-					(reference "R17")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -11850,6 +12158,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Parts" "C51118"
+			(at 45.72 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7580162f-c144-4138-a2da-257e6fceb358")
 		)
@@ -11908,7 +12227,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
 			(at 251.46 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -11931,6 +12250,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 251.46 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Parts" "C295747"
 			(at 251.46 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -12100,6 +12430,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Parts" "C528617"
+			(at 67.31 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "A3"
 			(uuid "35cbdfd7-c0db-4c79-919b-e73b903399cd")
 		)
@@ -12167,7 +12508,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Sunlord_SWPA4030S"
 			(at 229.87 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -12191,6 +12532,17 @@
 		)
 		(property "Description" "Inductor"
 			(at 229.87 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Parts" "C435273"
+			(at 229.87 53.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12272,6 +12624,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 48.26 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Parts" "C25744"
 			(at 48.26 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -12596,6 +12959,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Parts" "C25741"
+			(at 153.67 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "593175fd-b070-496f-9043-33df62206ecf")
 		)
@@ -12666,6 +13040,17 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 49.53 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Parts" "C165948"
 			(at 49.53 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -12924,7 +13309,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 259.3848 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -12957,7 +13342,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part" ""
+		(property "JLCPCB Parts" "C19702"
 			(at 260.35 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -13561,7 +13946,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 247.9548 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -13594,7 +13979,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part" ""
+		(property "JLCPCB Parts" "C19702"
 			(at 248.92 59.69 0)
 			(hide yes)
 			(show_name no)
