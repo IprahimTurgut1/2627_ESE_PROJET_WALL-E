@@ -3012,11 +3012,7 @@
 				)
 			)
 		)
-<<<<<<< HEAD
 		(property "JLCPCB Part #" "C1556089"
-=======
-		(property "JLCPCB Part#" "C50506"
->>>>>>> cfbf402df0cb3e69fe06f7ce09dd6d35ba523c0a
 			(at 85.09 82.55 0)
 			(hide yes)
 			(show_name no)

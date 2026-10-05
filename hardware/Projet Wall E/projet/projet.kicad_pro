@@ -669,7 +669,7 @@
         "uuid": "aad9219d-d686-4d68-8dbb-b3c2b0727159"
       }
     ],
-    "used_designators": "#PWR21-26,#PWR47,#PWR56,C15-22,C31-33,R14,R21,J9,U4,Y2",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
