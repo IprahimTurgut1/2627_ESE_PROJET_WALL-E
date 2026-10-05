@@ -3557,12 +3557,80 @@
 		(uuid "e70047d2-36c6-400f-b72e-793256a2ac79")
 	)
 	(no_connect
+		(at 182.88 127)
+		(uuid "05a80b7f-ad70-4454-9eee-44c822e2d03b")
+	)
+	(no_connect
+		(at 147.32 99.06)
+		(uuid "11e25004-6ef0-43a3-b520-5809d43ef8c6")
+	)
+	(no_connect
+		(at 147.32 93.98)
+		(uuid "11eaf3af-d13a-4268-8dc9-a45c6c5f27ab")
+	)
+	(no_connect
+		(at 182.88 88.9)
+		(uuid "204b280f-c388-401a-95de-83147d947b83")
+	)
+	(no_connect
+		(at 182.88 124.46)
+		(uuid "23f610de-52b1-444a-8ed6-671ce9ba3440")
+	)
+	(no_connect
+		(at 147.32 101.6)
+		(uuid "2e9e4c0b-61bd-4b41-bbbe-f9c1f53375fe")
+	)
+	(no_connect
+		(at 182.88 81.28)
+		(uuid "43c5ea71-7501-4acd-9ee3-31a3a2164d56")
+	)
+	(no_connect
+		(at 147.32 132.08)
+		(uuid "688f4085-cb8f-43ca-a655-82685c69303d")
+	)
+	(no_connect
+		(at 147.32 88.9)
+		(uuid "6fb32b92-c718-4d79-8559-b28667ba0a14")
+	)
+	(no_connect
+		(at 182.88 142.24)
+		(uuid "755fcc30-5396-4e64-9506-19db0c644c9b")
+	)
+	(no_connect
+		(at 182.88 71.12)
+		(uuid "7a34d10e-3851-4c7a-b08e-12d3ef9d9baf")
+	)
+	(no_connect
+		(at 182.88 86.36)
+		(uuid "841dacd1-a24d-4311-8cd6-59f7df5b668e")
+	)
+	(no_connect
+		(at 147.32 124.46)
+		(uuid "84a15c3a-d3fb-4d27-b5de-0d310909017e")
+	)
+	(no_connect
+		(at 147.32 127)
+		(uuid "901da040-101c-4305-8632-6a93277b14e5")
+	)
+	(no_connect
 		(at 44.45 125.73)
 		(uuid "b472ea7c-074c-4c4a-abea-94a687d1a2f4")
 	)
 	(no_connect
+		(at 147.32 129.54)
+		(uuid "b796561d-7e66-4c44-93c7-555e29725f15")
+	)
+	(no_connect
+		(at 147.32 96.52)
+		(uuid "d9d73128-1855-4d6f-a93f-7108d4dda549")
+	)
+	(no_connect
 		(at 44.45 120.65)
 		(uuid "ea64279e-d480-4479-b78a-842962713840")
+	)
+	(no_connect
+		(at 182.88 73.66)
+		(uuid "ed49f142-4471-426b-bfbc-bd2c3bf318be")
 	)
 	(wire
 		(pts
@@ -3693,6 +3761,16 @@
 			(type default)
 		)
 		(uuid "1869541f-58fb-4c90-9418-6b9f7eb2b16d")
+	)
+	(wire
+		(pts
+			(xy 185.42 152.4) (xy 182.88 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19489b36-bc51-4016-a14d-4863d378c694")
 	)
 	(wire
 		(pts
@@ -4346,6 +4424,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 101.6) (xy 182.88 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9478053b-93a5-4678-ada4-f80c581b05fa")
+	)
+	(wire
+		(pts
 			(xy 72.39 64.77) (xy 57.15 64.77)
 		)
 		(stroke
@@ -4353,6 +4441,16 @@
 			(type default)
 		)
 		(uuid "96cc776e-0453-4294-9438-6fb1c5894ea2")
+	)
+	(wire
+		(pts
+			(xy 190.5 99.06) (xy 182.88 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97fad36e-e698-4805-b3a3-c561991e5c13")
 	)
 	(wire
 		(pts
@@ -4626,16 +4724,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 142.24) (xy 182.88 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3454bbf-420e-4b59-b59d-e88fe4d78b74")
-	)
-	(wire
-		(pts
 			(xy 57.15 45.72) (xy 43.18 45.72)
 		)
 		(stroke
@@ -4766,6 +4854,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 149.86) (xy 185.42 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8b272bf-0a01-49a2-aec3-ee254c927308")
+	)
+	(wire
+		(pts
 			(xy 139.7 111.76) (xy 147.32 111.76)
 		)
 		(stroke
@@ -4823,6 +4921,16 @@
 			(justify left bottom)
 		)
 		(uuid "33b5d292-2221-469e-802a-5b968150b889")
+	)
+	(label "SERVO_PWM"
+		(at 187.96 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4acdc238-12b3-4737-9caa-1b480ab30380")
 	)
 	(label "SWDIO"
 		(at 186.69 104.14 0)
@@ -4893,6 +5001,16 @@
 			(justify left bottom)
 		)
 		(uuid "a0c9bd70-bb16-4f18-bba3-632bfd204a3b")
+	)
+	(label "SERVO_PWM"
+		(at 243.84 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bb6eab83-68cf-4ab6-b04c-1ade3a25df70")
 	)
 	(label "VCP_TX"
 		(at 31.75 133.35 0)
@@ -4999,6 +5117,17 @@
 		)
 		(uuid "2c0b6549-3006-4f5b-8afd-8e6d306e943e")
 	)
+	(hierarchical_label "CHG_PG"
+		(shape input)
+		(at 185.42 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "312fc5d1-e096-4793-b462-3a7f10f55074")
+	)
 	(hierarchical_label "SCL_CAPT"
 		(shape bidirectional)
 		(at 139.7 104.14 180)
@@ -5032,6 +5161,17 @@
 		)
 		(uuid "5e5aa0b8-b8e1-4728-875c-a74a8dc00b99")
 	)
+	(hierarchical_label "USB_DM"
+		(shape bidirectional)
+		(at 190.5 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6606292f-e1df-46e3-958c-881d5ecaedbd")
+	)
 	(hierarchical_label "TOF_R_SHUT"
 		(shape output)
 		(at 139.7 106.68 180)
@@ -5054,16 +5194,16 @@
 		)
 		(uuid "6ce6367b-2ee0-4086-bb1c-baa22078f40c")
 	)
-	(hierarchical_label "SERVO_PWM"
-		(shape output)
-		(at 187.96 129.54 0)
+	(hierarchical_label "GAUGE_INT"
+		(shape input)
+		(at 185.42 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "72c26f7c-1a36-4516-acc0-d9f1ff31afc4")
+		(uuid "6ee60d85-bc08-4daa-8914-aab2aeab6977")
 	)
 	(hierarchical_label "CHG_OTG"
 		(shape output)
@@ -5087,17 +5227,6 @@
 		)
 		(uuid "9a64c9e5-0ea3-4727-b255-ace6a4678c2c")
 	)
-	(hierarchical_label "CHG_nCE"
-		(shape output)
-		(at 186.69 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9e921356-9064-4400-a311-942c0cdceb53")
-	)
 	(hierarchical_label "ENCA_BOUT"
 		(shape input)
 		(at 187.96 96.52 0)
@@ -5119,17 +5248,6 @@
 			(justify left)
 		)
 		(uuid "b3c38f89-ce40-41ed-9e10-8ee8fe41c41c")
-	)
-	(hierarchical_label "SERVO_PWM"
-		(shape output)
-		(at 243.84 127 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b4eff374-6503-47d1-a07f-c1d99a79f171")
 	)
 	(hierarchical_label "TOF_R_GPIO1"
 		(shape input)
@@ -5207,6 +5325,17 @@
 			(justify right)
 		)
 		(uuid "e27aaebf-f6c5-4eae-a096-3524169662fb")
+	)
+	(hierarchical_label "USB_DP"
+		(shape bidirectional)
+		(at 190.5 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eecf6d0e-0685-4430-a003-d12a515db4a0")
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
