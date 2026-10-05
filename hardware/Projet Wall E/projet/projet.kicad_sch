@@ -89,6 +89,106 @@
 				(justify left top)
 			)
 		)
+		(pin "ENCA_AOUT" output
+			(at 101.6 106.68 0)
+			(uuid "ddedee4a-58c7-44bb-a987-27224c3e9ff9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ENCA_BOUT" output
+			(at 101.6 109.22 0)
+			(uuid "601304bd-d8e7-43f6-bd2d-cd921ef83432")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ENCB_AOUT" output
+			(at 101.6 113.03 0)
+			(uuid "4915e426-2e7d-4724-810e-322544474978")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ENCB_BOUT" output
+			(at 101.6 115.57 0)
+			(uuid "3c1b8d45-5716-4449-9b1a-41cd28f2cf93")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOT_AIN1" input
+			(at 101.6 124.46 0)
+			(uuid "dc8d8ee9-a29b-4a80-9927-cfed77687e0a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOT_AIN2" input
+			(at 101.6 127 0)
+			(uuid "185aa43b-5ab4-481e-8470-c26cca711a9f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOT_BIN1" input
+			(at 101.6 130.81 0)
+			(uuid "72981580-bf11-4191-9615-609eaade3a6b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOT_BIN2" input
+			(at 101.6 133.35 0)
+			(uuid "862e3bfe-88ce-4e4e-a221-3b84bd1eb6dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOT_nFAULT" output
+			(at 101.6 137.16 0)
+			(uuid "7843a6bf-351c-4129-980e-613497663506")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOT_nSLEEP" input
+			(at 101.6 139.7 0)
+			(uuid "c76b8799-8754-472f-9912-2c73ea91ee6d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "projet"
 				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159"
