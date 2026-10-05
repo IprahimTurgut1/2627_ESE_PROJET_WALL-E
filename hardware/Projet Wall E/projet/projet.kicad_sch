@@ -6,7 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 125.73 102.87)
+		(at 124.46 102.87)
 		(size 52.07 44.45)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "23293480-63ec-471b-bf54-55169cccd8a3")
 		(property "Sheetname" "Capteur"
-			(at 125.73 102.1584 0)
+			(at 124.46 102.1584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +33,7 @@
 			)
 		)
 		(property "Sheetfile" "capteur.kicad_sch"
-			(at 125.73 147.9046 0)
+			(at 124.46 147.9046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41,6 +41,76 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "SCL_CAPT" bidirectional
+			(at 124.46 105.41 180)
+			(uuid "0d0e1f0f-3db1-4d76-be63-5a8b75de2f28")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA_CAPT" bidirectional
+			(at 124.46 107.95 180)
+			(uuid "818a7bc6-f33f-45ad-96d2-5b9991873a9e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TOF_L_XSHUT" input
+			(at 124.46 110.49 180)
+			(uuid "b119546a-e249-4ee3-b68f-d7b8a113ed60")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TOF_R_XSHUT" input
+			(at 124.46 113.03 180)
+			(uuid "f4d7fa33-9218-4659-8322-3e9d0478d97d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "APDS_INT" output
+			(at 124.46 116.84 180)
+			(uuid "f01c6163-a617-430e-9547-0e74b2a21b31")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TOF_L_GPIO1" output
+			(at 124.46 120.65 180)
+			(uuid "a87df59c-0c7c-4889-a42c-9d7ddac064f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TOF_R_GPIO1" output
+			(at 124.46 124.46 180)
+			(uuid "e3ca78fb-010e-46bd-b469-a2139d00d202")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -87,106 +157,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "ENCA_AOUT" output
-			(at 101.6 106.68 0)
-			(uuid "ddedee4a-58c7-44bb-a987-27224c3e9ff9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "ENCA_BOUT" output
-			(at 101.6 109.22 0)
-			(uuid "601304bd-d8e7-43f6-bd2d-cd921ef83432")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "ENCB_AOUT" output
-			(at 101.6 113.03 0)
-			(uuid "4915e426-2e7d-4724-810e-322544474978")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "ENCB_BOUT" output
-			(at 101.6 115.57 0)
-			(uuid "3c1b8d45-5716-4449-9b1a-41cd28f2cf93")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "MOT_AIN1" input
-			(at 101.6 124.46 0)
-			(uuid "dc8d8ee9-a29b-4a80-9927-cfed77687e0a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "MOT_AIN2" input
-			(at 101.6 127 0)
-			(uuid "185aa43b-5ab4-481e-8470-c26cca711a9f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "MOT_BIN1" input
-			(at 101.6 130.81 0)
-			(uuid "72981580-bf11-4191-9615-609eaade3a6b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "MOT_BIN2" input
-			(at 101.6 133.35 0)
-			(uuid "862e3bfe-88ce-4e4e-a221-3b84bd1eb6dd")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "MOT_nFAULT" output
-			(at 101.6 137.16 0)
-			(uuid "7843a6bf-351c-4129-980e-613497663506")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "MOT_nSLEEP" input
-			(at 101.6 139.7 0)
-			(uuid "c76b8799-8754-472f-9912-2c73ea91ee6d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(instances
