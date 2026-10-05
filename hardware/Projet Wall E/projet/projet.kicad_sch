@@ -6,7 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 125.73 102.87)
+		(at 124.46 102.87)
 		(size 52.07 44.45)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "23293480-63ec-471b-bf54-55169cccd8a3")
 		(property "Sheetname" "Capteur"
-			(at 125.73 102.1584 0)
+			(at 124.46 102.1584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +33,7 @@
 			)
 		)
 		(property "Sheetfile" "capteur.kicad_sch"
-			(at 125.73 147.9046 0)
+			(at 124.46 147.9046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41,6 +41,76 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "SCL_CAPT" bidirectional
+			(at 124.46 105.41 180)
+			(uuid "0d0e1f0f-3db1-4d76-be63-5a8b75de2f28")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA_CAPT" bidirectional
+			(at 124.46 107.95 180)
+			(uuid "818a7bc6-f33f-45ad-96d2-5b9991873a9e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TOF_L_XSHUT" input
+			(at 124.46 110.49 180)
+			(uuid "b119546a-e249-4ee3-b68f-d7b8a113ed60")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TOF_R_XSHUT" input
+			(at 124.46 113.03 180)
+			(uuid "f4d7fa33-9218-4659-8322-3e9d0478d97d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "APDS_INT" output
+			(at 124.46 116.84 180)
+			(uuid "f01c6163-a617-430e-9547-0e74b2a21b31")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TOF_L_GPIO1" output
+			(at 124.46 120.65 180)
+			(uuid "a87df59c-0c7c-4889-a42c-9d7ddac064f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TOF_R_GPIO1" output
+			(at 124.46 124.46 180)
+			(uuid "e3ca78fb-010e-46bd-b469-a2139d00d202")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
