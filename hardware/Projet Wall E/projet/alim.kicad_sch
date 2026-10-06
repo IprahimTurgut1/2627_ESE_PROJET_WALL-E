@@ -7072,6 +7072,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 238.76 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a9b76e8b-b73f-4fb7-8233-01ae21c7818f")
 		)
@@ -7120,7 +7131,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 174.752 30.48 90)
 			(hide yes)
 			(show_name no)
@@ -7176,6 +7187,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 176.53 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 176.53 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -7366,6 +7388,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 227.33 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 227.33 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -7572,6 +7605,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 154.94 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3314457c-e416-493e-8280-e6b83999911d")
 		)
@@ -7690,6 +7734,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 93.98 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c125f670-7475-4cfa-8947-06ab60a063db")
 		)
@@ -7794,6 +7849,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 137.16 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 137.16 76.2 90)
 			(hide yes)
 			(show_name no)
@@ -7997,6 +8063,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 214.63 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2fb6d658-2031-42f0-b021-5cada786454c")
 		)
@@ -8099,6 +8176,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 232.41 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 232.41 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -8301,6 +8389,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 187.96 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "848e9236-47e9-41bf-b2f9-b5749259be1f")
 		)
@@ -8493,6 +8592,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 173.99 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "163d12a6-5421-42bc-9de3-211cae454ba5")
 		)
@@ -8621,6 +8731,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 158.75 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "89b793fc-f0db-484a-9a34-7ffb0b494915")
 		)
@@ -8738,6 +8859,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 219.71 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2e4320b2-d341-42dd-a6c0-d7d6cb206478")
 		)
@@ -8786,7 +8918,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 214.63 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -8853,6 +8985,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 214.63 24.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 214.63 24.13 90)
 			(hide yes)
 			(show_name no)
@@ -8977,6 +9120,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 30.48 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1881a99b-a8ce-4df1-8378-c72b81c7414d")
 		)
@@ -9082,6 +9236,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 158.75 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 158.75 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -9274,6 +9439,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 147.32 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 147.32 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -9619,6 +9795,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 234.95 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 234.95 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -10053,6 +10240,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 214.63 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f7f650cf-a17b-4004-9c78-0a52e062e898")
 		)
@@ -10168,6 +10366,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 156.21 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "163d12a6-5421-42bc-9de3-211cae454ba6")
 		)
@@ -10228,7 +10437,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 179.832 30.48 90)
 			(hide yes)
 			(show_name no)
@@ -10284,6 +10493,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 181.61 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 181.61 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -10408,6 +10628,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 214.63 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "11ab9e04-176e-47b8-8367-6fe045f1e375")
 		)
@@ -10510,6 +10741,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 93.98 154.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 93.98 154.94 90)
 			(hide yes)
 			(show_name no)
@@ -10700,6 +10942,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 201.93 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 201.93 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -10972,6 +11225,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 110.49 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9a5eaabc-ad1b-4bd8-b7fb-655529c63d77")
 		)
@@ -11098,7 +11362,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 168.402 30.48 90)
 			(hide yes)
 			(show_name no)
@@ -11154,6 +11418,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 170.18 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 170.18 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -11269,6 +11544,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 85.09 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 85.09 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -11625,6 +11911,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 35.56 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7f445c73-d70e-4584-a636-f7d1dd785f54")
 		)
@@ -11733,6 +12030,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 86.36 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 86.36 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -11947,6 +12255,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 143.51 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e53b2262-91a9-4a5b-be6b-446a9ec26567")
 		)
@@ -12049,6 +12368,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 240.03 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 240.03 80.01 90)
 			(hide yes)
 			(show_name no)
@@ -12163,6 +12493,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 220.98 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 220.98 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -12288,6 +12629,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 190.5 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "22eb5852-499d-4e1d-b2d2-8ddb99d460f6")
 		)
@@ -12392,6 +12744,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 58.42 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 58.42 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -12517,6 +12880,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 176.53 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "74069365-438e-4ed0-b17f-fd979f4784c5")
 		)
@@ -12620,6 +12994,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 45.72 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 45.72 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -12744,6 +13129,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 251.46 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 251.46 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -12946,6 +13342,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 67.31 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "A3"
 			(uuid "35cbdfd7-c0db-4c79-919b-e73b903399cd")
 		)
@@ -13046,7 +13453,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part#" "C435273"
+		(property "JLCPCB Part#" "C316359"
 			(at 229.87 53.34 90)
 			(hide yes)
 			(show_name no)
@@ -13069,6 +13476,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 229.87 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 229.87 53.34 90)
 			(hide yes)
 			(show_name no)
@@ -13184,6 +13602,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 48.26 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 48.26 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -13618,6 +14047,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 153.67 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "593175fd-b070-496f-9043-33df62206ecf")
 		)
@@ -13721,6 +14161,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 49.53 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 49.53 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -14035,6 +14486,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 260.35 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 260.35 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -14559,7 +15021,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 190.5 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -14626,6 +15088,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 190.5 21.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 190.5 21.59 90)
 			(hide yes)
 			(show_name no)
@@ -14818,6 +15291,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 248.92 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 248.92 59.69 0)
 			(hide yes)
 			(show_name no)

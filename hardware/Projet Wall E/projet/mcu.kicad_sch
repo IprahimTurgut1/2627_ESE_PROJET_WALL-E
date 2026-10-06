@@ -5564,7 +5564,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_XLR_Neutrik_NC3FAAH_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 248.92 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -5620,6 +5620,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 248.92 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 248.92 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -5906,6 +5917,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 88.9 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 88.9 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -6227,6 +6249,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 257.81 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f526cc5b-b968-4f46-bf4a-05f56c9dbb88")
 		)
@@ -6348,6 +6381,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 100.33 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3e89d1db-92e3-4179-aa17-dc1221ee5cb4")
 		)
@@ -6402,7 +6446,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 103.8352 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -6468,6 +6512,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 102.87 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "eff5bc9f-30a1-4ec9-9f03-d6e8e0f42047")
 		)
@@ -6523,7 +6578,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 113.9952 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -6579,6 +6634,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 113.03 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 113.03 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -6794,6 +6860,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 29.21 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "08a08c2d-d3a7-4a5b-ab3e-ad7bcd922358")
 		)
@@ -6906,6 +6983,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 165.1 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 165.1 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -7301,6 +7389,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 57.15 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f909624b-07b7-44bc-84a4-2a3614a20cb6")
 		)
@@ -7588,6 +7687,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 119.38 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0d946f07-6c26-4272-8646-d406cf181e46")
 		)
@@ -7804,6 +7914,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 127 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "9c649bf6-7758-4421-a517-0eedf5080834")
 		)
@@ -7931,6 +8052,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 43.18 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6e257af8-4750-499a-a157-bc8d63b7ded5")
 		)
@@ -8032,6 +8164,28 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 57.15 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part#" "C2935955"
+			(at 57.15 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 57.15 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -8210,6 +8364,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 257.81 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ed4119e8-7b59-4963-baf7-42b1d5f6e662")
 		)
@@ -8321,6 +8486,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 15.24 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 15.24 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -8547,6 +8723,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 242.57 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "799bbc5f-5fce-4e99-9ecb-837b14caeb63")
 		)
@@ -8690,6 +8877,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 242.57 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dcdcc34c-719d-4a9f-83e4-e4957fd5330a")
 		)
@@ -8745,7 +8943,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 73.3552 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -8801,6 +8999,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 72.39 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 72.39 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -8932,6 +9141,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 127 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b4a35026-c571-4d53-afaf-c0533c578291")
 		)
@@ -9041,6 +9261,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 119.38 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 119.38 81.28 90)
 			(hide yes)
 			(show_name no)
@@ -9161,6 +9392,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 205.74 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 205.74 143.51 0)
 			(hide yes)
 			(show_name no)

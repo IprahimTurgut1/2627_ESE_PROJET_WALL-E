@@ -637,6 +637,18 @@
           "label": "KLC_S4.1",
           "name": "KLC_S4.1",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Parts Number",
+          "name": "LCSC Parts Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part Number",
+          "name": "LCSC Part Number",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -687,7 +699,7 @@
         "uuid": "aad9219d-d686-4d68-8dbb-b3c2b0727159"
       }
     ],
-    "used_designators": "J201-202,J301-302,J401-402,J501-504,R201-218,R301-303,R401-403,R501-502,#FLG201-205,#FLG401,#FLG501,L201,D201-202,D301-302,D501,#PWR201-232,#PWR301-311,#PWR401-411,#PWR501-520,C201-212,C301-312,C401-404,C501-509,F201,Q201-203,U201-204,U301,U401,U501,Y301",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
