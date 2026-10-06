@@ -477,6 +477,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 88.9) (xy 160.02 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a9c7bc2-1327-4bd2-a5ea-301f2aa586f2")
+	)
+	(wire
+		(pts
 			(xy 116.84 132.08) (xy 101.6 132.08)
 		)
 		(stroke
@@ -856,6 +866,16 @@
 		(pin "TOF_R_XSHUT" input
 			(at 176.53 124.46 0)
 			(uuid "3d80cdcb-5956-49ff-94b4-a9755900660a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NEOPIXEL" input
+			(at 160.02 102.87 90)
+			(uuid "f5f67f8b-2552-477a-af83-f84ae09cc460")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1255,16 +1275,6 @@
 				(justify right)
 			)
 		)
-		(pin "TOF_R_SHUT" output
-			(at 177.8 62.23 0)
-			(uuid "cd918a1d-3d8c-494b-9795-d435ee9ea7f0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "GAUGE_INT" input
 			(at 125.73 49.53 180)
 			(uuid "f0338bc9-b85c-4dde-9771-cee89723e718")
@@ -1303,6 +1313,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "NEOPIXEL" output
+			(at 160.02 88.9 270)
+			(uuid "a8bbc195-869e-42b7-a1d8-9191df7c0ebd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TOF_R_XSHUT" output
+			(at 177.8 62.23 0)
+			(uuid "20e51a14-ce83-46c1-b2e4-0153a8ee4326")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
