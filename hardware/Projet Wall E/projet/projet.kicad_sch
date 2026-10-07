@@ -1095,7 +1095,7 @@
 				(justify left)
 			)
 		)
-		(pin "CHG_OTG" output
+		(pin "CHG_OTG" input
 			(at 125.73 57.15 180)
 			(uuid "569ebdc7-8da3-469c-a809-3d61c916135d")
 			(effects

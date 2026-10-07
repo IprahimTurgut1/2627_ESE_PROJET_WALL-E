@@ -1960,16 +1960,16 @@
 		(uuid "18fd6f1e-1db6-415b-9f98-ebc01ebe8777")
 	)
 	(junction
-		(at 130.81 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2a32a82b-7e6e-49af-93ce-f28f39ea3e4c")
-	)
-	(junction
 		(at 186.69 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2eb5b6be-d926-4a28-bfcb-a4c39d9b20d8")
+	)
+	(junction
+		(at 113.03 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a17cd26-2cd1-4b84-8138-45ccd393e3cb")
 	)
 	(junction
 		(at 130.81 83.82)
@@ -1978,7 +1978,7 @@
 		(uuid "5d88f0c9-4eba-4d86-bf9c-b197101a473a")
 	)
 	(junction
-		(at 130.81 151.13)
+		(at 113.03 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "61e04492-78af-41f0-87c1-1615ed35affd")
@@ -2022,10 +2022,6 @@
 	(no_connect
 		(at 214.63 85.09)
 		(uuid "d9db2c0c-63a4-432a-bc7f-0b7a4d14d591")
-	)
-	(no_connect
-		(at 91.44 173.99)
-		(uuid "ead4ee8b-562f-4443-b76d-32836e03bb86")
 	)
 	(wire
 		(pts
@@ -2109,6 +2105,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 173.99) (xy 124.46 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f06776e-9a74-4db8-ab0e-ac0a49d6a809")
+	)
+	(wire
+		(pts
 			(xy 83.82 157.48) (xy 83.82 166.37)
 		)
 		(stroke
@@ -2149,7 +2155,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 140.97) (xy 151.13 140.97)
+			(xy 113.03 171.45) (xy 124.46 171.45)
 		)
 		(stroke
 			(width 0)
@@ -2359,7 +2365,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 140.97) (xy 130.81 144.78)
+			(xy 113.03 171.45) (xy 113.03 175.26)
 		)
 		(stroke
 			(width 0)
@@ -2369,7 +2375,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 151.13) (xy 130.81 152.4)
+			(xy 113.03 181.61) (xy 113.03 182.88)
 		)
 		(stroke
 			(width 0)
@@ -2389,7 +2395,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 151.13) (xy 138.43 151.13)
+			(xy 113.03 181.61) (xy 120.65 181.61)
 		)
 		(stroke
 			(width 0)
@@ -2429,7 +2435,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 146.05) (xy 138.43 151.13)
+			(xy 120.65 176.53) (xy 120.65 181.61)
 		)
 		(stroke
 			(width 0)
@@ -2459,7 +2465,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 138.43) (xy 130.81 140.97)
+			(xy 113.03 168.91) (xy 113.03 171.45)
 		)
 		(stroke
 			(width 0)
@@ -2539,7 +2545,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 146.05) (xy 138.43 146.05)
+			(xy 124.46 176.53) (xy 120.65 176.53)
 		)
 		(stroke
 			(width 0)
@@ -2699,16 +2705,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 143.51) (xy 151.13 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c59e5479-4c2d-4a8c-b927-7bb4e9ae9340")
-	)
-	(wire
-		(pts
 			(xy 83.82 157.48) (xy 71.12 157.48)
 		)
 		(stroke
@@ -2839,7 +2835,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 149.86) (xy 130.81 151.13)
+			(xy 113.03 180.34) (xy 113.03 181.61)
 		)
 		(stroke
 			(width 0)
@@ -2917,16 +2913,6 @@
 			(justify left bottom)
 		)
 		(uuid "7bbdcdde-e8df-4863-9dd4-f7e9b31bff0d")
-	)
-	(label "NP_5V"
-		(at 144.78 143.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8237bfca-848c-43a9-a956-f90086f57eb6")
 	)
 	(label "SDA_CAPT"
 		(at 207.01 92.71 180)
@@ -4230,7 +4216,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 156.21 143.51 0)
+		(at 129.54 173.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4241,7 +4227,7 @@
 		(fields_autoplaced yes)
 		(uuid "5ba0d4f3-fcde-4501-8cc5-382deca50aab")
 		(property "Reference" "J503"
-			(at 158.75 142.2399 0)
+			(at 132.08 172.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4252,7 +4238,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 158.75 144.7799 0)
+			(at 132.08 175.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4263,7 +4249,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 156.21 143.51 0)
+			(at 129.54 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4274,7 +4260,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 143.51 0)
+			(at 129.54 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4285,7 +4271,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 156.21 143.51 0)
+			(at 129.54 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4296,7 +4282,7 @@
 			)
 		)
 		(property "JLCPCB Part#" "C49257"
-			(at 156.21 143.51 0)
+			(at 129.54 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4307,7 +4293,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 156.21 143.51 0)
+			(at 129.54 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4318,7 +4304,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 156.21 143.51 0)
+			(at 129.54 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4329,7 +4315,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 156.21 143.51 0)
+			(at 129.54 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5269,7 +5255,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 130.81 138.43 0)
+		(at 113.03 168.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5279,7 +5265,7 @@
 		(dnp no)
 		(uuid "b22cc223-d874-4cf5-b91a-b7ddd114caa8")
 		(property "Reference" "#PWR0513"
-			(at 130.81 142.24 0)
+			(at 113.03 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5290,7 +5276,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 130.81 134.366 0)
+			(at 113.03 164.846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5300,7 +5286,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 138.43 0)
+			(at 113.03 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5311,7 +5297,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 138.43 0)
+			(at 113.03 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5322,7 +5308,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 130.81 138.43 0)
+			(at 113.03 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5922,7 +5908,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 130.81 152.4 0)
+		(at 113.03 182.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5933,7 +5919,7 @@
 		(fields_autoplaced yes)
 		(uuid "e5394471-b066-441d-908b-05021928ea33")
 		(property "Reference" "#PWR0514"
-			(at 130.81 158.75 0)
+			(at 113.03 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5944,7 +5930,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 157.48 0)
+			(at 113.03 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5955,7 +5941,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 152.4 0)
+			(at 113.03 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5966,7 +5952,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 152.4 0)
+			(at 113.03 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5977,7 +5963,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 152.4 0)
+			(at 113.03 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6303,7 +6289,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 130.81 147.32 0)
+		(at 113.03 177.8 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -6314,7 +6300,7 @@
 		(dnp no)
 		(uuid "ec46d9c2-a2e5-4609-8fc3-4bda603e9ddd")
 		(property "Reference" "C507"
-			(at 128.27 146.0562 0)
+			(at 110.49 176.5362 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6325,7 +6311,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 128.27 148.5962 0)
+			(at 110.49 179.0762 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6336,7 +6322,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 130.81 147.32 0)
+			(at 113.03 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6347,7 +6333,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 147.32 0)
+			(at 113.03 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6358,7 +6344,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 130.81 147.32 0)
+			(at 113.03 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6369,7 +6355,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 130.81 147.32 0)
+			(at 113.03 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6380,7 +6366,7 @@
 			)
 		)
 		(property "JLCPCB Part#" "C1525"
-			(at 130.81 147.32 0)
+			(at 113.03 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6391,7 +6377,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 130.81 147.32 0)
+			(at 113.03 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

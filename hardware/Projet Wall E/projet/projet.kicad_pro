@@ -651,7 +651,7 @@
           "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "C404",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
@@ -699,7 +699,7 @@
         "uuid": "aad9219d-d686-4d68-8dbb-b3c2b0727159"
       }
     ],
-    "used_designators": "",
+    "used_designators": "C313",
     "variants": []
   },
   "sheets": [
