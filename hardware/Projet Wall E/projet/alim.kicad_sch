@@ -4933,6 +4933,12 @@
 		(uuid "deb19893-4a0d-4f4f-a80d-8d67471209bc")
 	)
 	(junction
+		(at 68.58 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ecd146dc-64bf-4dda-9a44-49fd8c1c62a5")
+	)
+	(junction
 		(at 180.34 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4995,6 +5001,16 @@
 			(type default)
 		)
 		(uuid "048cddaf-f888-4c34-9e59-32913a06cbac")
+	)
+	(wire
+		(pts
+			(xy 78.74 30.48) (xy 78.74 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0648a2d5-9b30-43bf-b99e-f5d78a5f612b")
 	)
 	(wire
 		(pts
@@ -6745,6 +6761,16 @@
 			(type default)
 		)
 		(uuid "d52bc267-a927-415a-99fc-2176a638c061")
+	)
+	(wire
+		(pts
+			(xy 78.74 35.56) (xy 68.58 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d59789d5-43c5-46ab-8c4f-9d8f3b4320e0")
 	)
 	(wire
 		(pts
@@ -16886,6 +16912,83 @@
 			(project "projet"
 				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/bd811c64-dff7-4046-86a6-8e854625b7a5"
 					(reference "D201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 78.74 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f55485fe-3c92-4845-a744-d831784b53ed")
+		(property "Reference" "#FLG0203"
+			(at 78.74 28.575 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 78.74 26.416 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 78.74 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5559f067-0f7c-4762-a2a8-b9fe07247dc4")
+		)
+		(instances
+			(project "projet"
+				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/bd811c64-dff7-4046-86a6-8e854625b7a5"
+					(reference "#FLG0203")
 					(unit 1)
 				)
 			)
