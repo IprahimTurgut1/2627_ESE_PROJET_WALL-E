@@ -4729,6 +4729,12 @@
 		(uuid "016feddd-119d-4afc-8229-4020f378264f")
 	)
 	(junction
+		(at 217.17 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04cfba92-f13b-457e-8ded-d10105cf3c57")
+	)
+	(junction
 		(at 68.58 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4789,10 +4795,10 @@
 		(uuid "378a2fc1-c5f8-4a30-a791-99817a4d6d08")
 	)
 	(junction
-		(at 219.71 86.36)
+		(at 214.63 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "38cb8071-6b6e-4ec6-bf48-cb645955db70")
+		(uuid "46432065-0ca5-4c6d-a3f1-4689c3c59a53")
 	)
 	(junction
 		(at 170.18 64.77)
@@ -4877,12 +4883,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "96d37a98-46b9-49d2-b87d-3425ca664a3a")
-	)
-	(junction
-		(at 214.63 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9767ac31-dd40-4b6b-91a1-5c95115bf893")
 	)
 	(junction
 		(at 45.72 115.57)
@@ -4985,6 +4985,16 @@
 			(type default)
 		)
 		(uuid "009bbb57-c94b-4cf5-80f3-abc214582496")
+	)
+	(wire
+		(pts
+			(xy 217.17 71.12) (xy 217.17 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "048cddaf-f888-4c34-9e59-32913a06cbac")
 	)
 	(wire
 		(pts
@@ -5128,6 +5138,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 86.36) (xy 214.63 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b69b67b-010d-4f6a-b823-851e1625c628")
+	)
+	(wire
+		(pts
 			(xy 139.7 115.57) (xy 153.67 115.57)
 		)
 		(stroke
@@ -5158,7 +5178,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 71.12) (xy 212.09 71.12)
+			(xy 212.09 71.12) (xy 217.17 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5328,16 +5348,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 76.2) (xy 214.63 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a7d8a06-92e7-4bb4-be71-e32075029f7a")
-	)
-	(wire
-		(pts
 			(xy 156.21 91.44) (xy 156.21 92.71)
 		)
 		(stroke
@@ -5378,7 +5388,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 85.09) (xy 214.63 86.36)
+			(xy 217.17 81.28) (xy 217.17 86.36)
 		)
 		(stroke
 			(width 0)
@@ -5508,16 +5518,6 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 86.36) (xy 214.63 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4de4de50-316d-4ea7-9a0a-c28009c14720")
-	)
-	(wire
-		(pts
 			(xy 82.55 154.94) (xy 88.9 154.94)
 		)
 		(stroke
@@ -5525,6 +5525,16 @@
 			(type default)
 		)
 		(uuid "4f086757-9e4b-4465-ae21-8834f7347037")
+	)
+	(wire
+		(pts
+			(xy 212.09 76.2) (xy 212.09 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f2b2874-a0b2-48a9-93df-01e04fdaa4a6")
 	)
 	(wire
 		(pts
@@ -5658,16 +5668,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 86.36) (xy 214.63 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5faefeb4-1b8a-49d3-ae59-0bcd08f6f46c")
-	)
-	(wire
-		(pts
 			(xy 147.32 91.44) (xy 156.21 91.44)
 		)
 		(stroke
@@ -5715,6 +5715,16 @@
 			(type default)
 		)
 		(uuid "6413986d-ba36-4613-8ce8-f0796f040b9a")
+	)
+	(wire
+		(pts
+			(xy 217.17 71.12) (xy 219.71 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64b9a754-3fff-458b-972a-8246a376c10a")
 	)
 	(wire
 		(pts
@@ -6298,6 +6308,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 86.36) (xy 214.63 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dcdcc16-4f7b-459a-933c-8427933eb616")
+	)
+	(wire
+		(pts
 			(xy 191.77 76.2) (xy 187.96 76.2)
 		)
 		(stroke
@@ -6335,6 +6355,16 @@
 			(type default)
 		)
 		(uuid "a2f69b95-9140-46f8-b0bb-ab189550cc18")
+	)
+	(wire
+		(pts
+			(xy 212.09 86.36) (xy 214.63 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a38afdd5-049f-45d2-8ea6-8312e18fa571")
 	)
 	(wire
 		(pts
@@ -6458,7 +6488,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 95.25) (xy 214.63 100.33)
+			(xy 214.63 97.79) (xy 214.63 100.33)
 		)
 		(stroke
 			(width 0)
@@ -6598,7 +6628,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 71.12) (xy 219.71 86.36)
+			(xy 219.71 71.12) (xy 219.71 91.44)
 		)
 		(stroke
 			(width 0)
@@ -6958,16 +6988,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 76.2) (xy 214.63 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f134a27f-9eb1-486f-8141-581272bf3564")
-	)
-	(wire
-		(pts
 			(xy 30.48 102.87) (xy 30.48 105.41)
 		)
 		(stroke
@@ -7095,16 +7115,6 @@
 			(type default)
 		)
 		(uuid "fb1334a6-a547-4986-b2ae-5e4bd9a15a67")
-	)
-	(wire
-		(pts
-			(xy 219.71 86.36) (xy 219.71 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdae5b29-bd01-4917-9676-5d0da4947384")
 	)
 	(wire
 		(pts
@@ -10645,7 +10655,7 @@
 	)
 	(symbol
 		(lib_id "wall_e:R")
-		(at 214.63 91.44 0)
+		(at 214.63 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10655,7 +10665,7 @@
 		(dnp no)
 		(uuid "4e5e3947-e010-46d0-982d-55a1ab2d95e1")
 		(property "Reference" "R217"
-			(at 211.836 87.884 0)
+			(at 211.836 90.424 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10666,7 +10676,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 210.566 95.25 0)
+			(at 210.566 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10677,7 +10687,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 212.852 91.44 90)
+			(at 212.852 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10688,7 +10698,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 91.44 0)
+			(at 214.63 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10699,7 +10709,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 214.63 91.44 0)
+			(at 214.63 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10710,7 +10720,7 @@
 			)
 		)
 		(property "JLCPCB Part#" "C25744"
-			(at 214.63 91.44 0)
+			(at 214.63 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10721,7 +10731,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 214.63 91.44 0)
+			(at 214.63 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10732,7 +10742,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 214.63 91.44 0)
+			(at 214.63 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10743,7 +10753,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 214.63 91.44 0)
+			(at 214.63 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11112,7 +11122,7 @@
 	)
 	(symbol
 		(lib_id "wall_e:R")
-		(at 214.63 81.28 180)
+		(at 217.17 77.47 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11122,7 +11132,7 @@
 		(dnp no)
 		(uuid "576d600b-7bf5-4b42-a0eb-1caf80d4b35c")
 		(property "Reference" "R216"
-			(at 214.122 77.978 0)
+			(at 216.662 74.168 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11133,7 +11143,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 213.868 84.836 0)
+			(at 216.408 81.026 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11144,7 +11154,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 216.408 81.28 90)
+			(at 218.948 77.47 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11155,7 +11165,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 81.28 0)
+			(at 217.17 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11166,7 +11176,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 214.63 81.28 0)
+			(at 217.17 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11177,7 +11187,7 @@
 			)
 		)
 		(property "JLCPCB Part#" "C25744"
-			(at 214.63 81.28 0)
+			(at 217.17 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11188,7 +11198,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 214.63 81.28 0)
+			(at 217.17 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11199,7 +11209,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 214.63 81.28 0)
+			(at 217.17 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11210,7 +11220,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 214.63 81.28 0)
+			(at 217.17 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
