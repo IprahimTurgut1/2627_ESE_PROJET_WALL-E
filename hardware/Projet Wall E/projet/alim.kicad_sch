@@ -4974,7 +4974,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 121.92) (xy 257.81 120.65)
+			(xy 257.81 138.43) (xy 257.81 137.16)
 		)
 		(stroke
 			(width 0)
@@ -5051,16 +5051,6 @@
 			(type default)
 		)
 		(uuid "0a6424dd-1c80-4404-984a-609ac41b9807")
-	)
-	(wire
-		(pts
-			(xy 257.81 137.16) (xy 257.81 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0dc86230-fcd7-4497-b574-b47dba2e6543")
 	)
 	(wire
 		(pts
@@ -5314,7 +5304,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 130.81) (xy 260.35 130.81)
+			(xy 257.81 147.32) (xy 260.35 147.32)
 		)
 		(stroke
 			(width 0)
@@ -5604,7 +5594,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 104.14) (xy 257.81 102.87)
+			(xy 257.81 120.65) (xy 257.81 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5774,7 +5764,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 113.03) (xy 260.35 113.03)
+			(xy 257.81 129.54) (xy 260.35 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5854,7 +5844,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 111.76) (xy 257.81 113.03)
+			(xy 257.81 128.27) (xy 257.81 129.54)
 		)
 		(stroke
 			(width 0)
@@ -6004,16 +5994,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 146.05) (xy 257.81 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83c8a1d6-6cbd-4c06-88bd-740549be5e0b")
-	)
-	(wire
-		(pts
 			(xy 214.63 39.37) (xy 214.63 40.64)
 		)
 		(stroke
@@ -6044,7 +6024,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 104.14) (xy 260.35 104.14)
+			(xy 257.81 120.65) (xy 260.35 120.65)
 		)
 		(stroke
 			(width 0)
@@ -6194,16 +6174,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 146.05) (xy 260.35 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94248247-f2d6-4179-b29d-3fb9c9408f51")
-	)
-	(wire
-		(pts
 			(xy 30.48 102.87) (xy 38.1 102.87)
 		)
 		(stroke
@@ -6251,16 +6221,6 @@
 			(type default)
 		)
 		(uuid "979df391-fa47-4e10-84df-adcb158421d0")
-	)
-	(wire
-		(pts
-			(xy 257.81 137.16) (xy 260.35 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99bf672b-996a-46d8-9376-68282e0d0bab")
 	)
 	(wire
 		(pts
@@ -6354,7 +6314,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 154.94) (xy 257.81 156.21)
+			(xy 257.81 153.67) (xy 257.81 154.94)
 		)
 		(stroke
 			(width 0)
@@ -6604,7 +6564,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 129.54) (xy 257.81 130.81)
+			(xy 257.81 146.05) (xy 257.81 147.32)
 		)
 		(stroke
 			(width 0)
@@ -6664,7 +6624,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 154.94) (xy 260.35 154.94)
+			(xy 257.81 153.67) (xy 260.35 153.67)
 		)
 		(stroke
 			(width 0)
@@ -6684,7 +6644,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 121.92) (xy 257.81 121.92)
+			(xy 260.35 138.43) (xy 257.81 138.43)
 		)
 		(stroke
 			(width 0)
@@ -8595,85 +8555,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 260.35 137.16 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "201dde55-7ada-4d57-b769-402191c6b6a9")
-		(property "Reference" "TP210"
-			(at 265.43 135.8899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND"
-			(at 265.43 138.4299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 260.35 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 260.35 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 260.35 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8243168f-3d5e-4e9c-8142-a83900e83dc1")
-		)
-		(instances
-			(project "projet"
-				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/bd811c64-dff7-4046-86a6-8e854625b7a5"
-					(reference "TP210")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 35.56 157.48 0)
 		(unit 1)
@@ -10372,7 +10253,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 257.81 120.65 0)
+		(at 257.81 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10382,7 +10263,7 @@
 		(dnp no)
 		(uuid "4ac16ed8-1a86-4fa9-9efd-a68cd61b9208")
 		(property "Reference" "#PWR0236"
-			(at 257.81 124.46 0)
+			(at 257.81 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10393,7 +10274,7 @@
 			)
 		)
 		(property "Value" "+5V_USB"
-			(at 257.81 116.586 0)
+			(at 257.81 133.096 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10403,7 +10284,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 120.65 0)
+			(at 257.81 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10414,7 +10295,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 120.65 0)
+			(at 257.81 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10425,7 +10306,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 257.81 120.65 0)
+			(at 257.81 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10806,7 +10687,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 260.35 154.94 270)
+		(at 260.35 153.67 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10817,7 +10698,7 @@
 		(fields_autoplaced yes)
 		(uuid "511e1b21-46e5-485d-913e-397b5c90733b")
 		(property "Reference" "TP201"
-			(at 265.43 153.6699 90)
+			(at 265.43 152.3999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10828,7 +10709,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 265.43 156.2099 90)
+			(at 265.43 154.9399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10839,7 +10720,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 260.35 160.02 0)
+			(at 260.35 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10850,7 +10731,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 160.02 0)
+			(at 260.35 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10861,7 +10742,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 260.35 154.94 0)
+			(at 260.35 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11474,7 +11355,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 260.35 104.14 270)
+		(at 260.35 120.65 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11485,7 +11366,7 @@
 		(fields_autoplaced yes)
 		(uuid "5d230596-0d84-4109-9548-dcdacfef2f2a")
 		(property "Reference" "TP202"
-			(at 265.43 102.8699 90)
+			(at 265.43 119.3799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11496,7 +11377,7 @@
 			)
 		)
 		(property "Value" "VSYS"
-			(at 265.43 105.4099 90)
+			(at 265.43 121.9199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11507,7 +11388,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 260.35 109.22 0)
+			(at 260.35 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11518,7 +11399,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 109.22 0)
+			(at 260.35 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11529,7 +11410,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 260.35 104.14 0)
+			(at 260.35 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12278,7 +12159,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 257.81 156.21 0)
+		(at 257.81 154.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12289,7 +12170,7 @@
 		(fields_autoplaced yes)
 		(uuid "70341dc3-7089-4b38-ba58-e8237b3bacc7")
 		(property "Reference" "#PWR0233"
-			(at 257.81 162.56 0)
+			(at 257.81 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12300,7 +12181,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 257.81 161.29 0)
+			(at 257.81 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12310,7 +12191,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 156.21 0)
+			(at 257.81 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12321,7 +12202,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 156.21 0)
+			(at 257.81 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12332,7 +12213,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 257.81 156.21 0)
+			(at 257.81 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12854,7 +12735,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 260.35 113.03 270)
+		(at 260.35 129.54 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12865,7 +12746,7 @@
 		(fields_autoplaced yes)
 		(uuid "7c973826-388c-47ae-a44e-7541377e4eef")
 		(property "Reference" "TP203"
-			(at 265.43 111.7599 90)
+			(at 265.43 128.2699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12876,7 +12757,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 265.43 114.2999 90)
+			(at 265.43 130.8099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12887,7 +12768,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 260.35 118.11 0)
+			(at 260.35 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12898,7 +12779,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 118.11 0)
+			(at 260.35 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12909,7 +12790,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 260.35 113.03 0)
+			(at 260.35 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13011,7 +12892,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 257.81 129.54 0)
+		(at 257.81 146.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13021,7 +12902,7 @@
 		(dnp no)
 		(uuid "82eef620-ed9c-460f-9d95-93b8e1289484")
 		(property "Reference" "#PWR0237"
-			(at 257.81 133.35 0)
+			(at 257.81 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13032,7 +12913,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 257.81 125.476 0)
+			(at 257.81 141.986 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13042,7 +12923,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 129.54 0)
+			(at 257.81 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13053,7 +12934,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 129.54 0)
+			(at 257.81 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13064,7 +12945,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 257.81 129.54 0)
+			(at 257.81 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13461,7 +13342,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 260.35 130.81 270)
+		(at 260.35 147.32 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13472,7 +13353,7 @@
 		(fields_autoplaced yes)
 		(uuid "9289b6f2-3088-4bca-8766-b8f44140f31b")
 		(property "Reference" "TP205"
-			(at 265.43 129.5399 90)
+			(at 265.43 146.0499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13483,7 +13364,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 265.43 132.0799 90)
+			(at 265.43 148.5899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13494,7 +13375,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 260.35 135.89 0)
+			(at 260.35 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13505,7 +13386,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 135.89 0)
+			(at 260.35 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13516,7 +13397,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 260.35 130.81 0)
+			(at 260.35 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14049,84 +13930,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 257.81 138.43 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b39622b-1a67-4f6d-b3bb-19c96382de06")
-		(property "Reference" "#PWR0238"
-			(at 257.81 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 257.81 143.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 257.81 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 257.81 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 257.81 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5111910c-ee5b-43aa-98e8-d605161e4e69")
-		)
-		(instances
-			(project "projet"
-				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/bd811c64-dff7-4046-86a6-8e854625b7a5"
-					(reference "#PWR0238")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 251.46 80.01 0)
 		(unit 1)
@@ -14247,84 +14050,6 @@
 			(project "projet"
 				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/bd811c64-dff7-4046-86a6-8e854625b7a5"
 					(reference "J202")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 257.81 147.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9f362cd8-e670-452b-a108-4b5689696207")
-		(property "Reference" "#PWR0239"
-			(at 257.81 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 257.81 152.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 257.81 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 257.81 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 257.81 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "aaaca370-5517-42c2-b563-f0a303399f52")
-		)
-		(instances
-			(project "projet"
-				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/bd811c64-dff7-4046-86a6-8e854625b7a5"
-					(reference "#PWR0239")
 					(unit 1)
 				)
 			)
@@ -15193,7 +14918,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 257.81 111.76 0)
+		(at 257.81 128.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15203,7 +14928,7 @@
 		(dnp no)
 		(uuid "cc5799a7-c9cd-435c-8a05-2c5dd503588d")
 		(property "Reference" "#PWR0235"
-			(at 257.81 115.57 0)
+			(at 257.81 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15214,7 +14939,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 257.81 107.696 0)
+			(at 257.81 124.206 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15224,7 +14949,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 111.76 0)
+			(at 257.81 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15235,7 +14960,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 111.76 0)
+			(at 257.81 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15246,7 +14971,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 257.81 111.76 0)
+			(at 257.81 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15396,7 +15121,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 257.81 102.87 0)
+		(at 257.81 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15406,7 +15131,7 @@
 		(dnp no)
 		(uuid "ce168f9d-4e09-43ae-b7ee-a748f1a031f7")
 		(property "Reference" "#PWR0234"
-			(at 257.81 106.68 0)
+			(at 257.81 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15417,7 +15142,7 @@
 			)
 		)
 		(property "Value" "VSYS"
-			(at 257.81 99.06 0)
+			(at 257.81 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15427,7 +15152,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 102.87 0)
+			(at 257.81 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15438,7 +15163,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 102.87 0)
+			(at 257.81 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15449,7 +15174,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 257.81 102.87 0)
+			(at 257.81 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16077,85 +15802,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 260.35 146.05 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e1977d4f-61de-40f2-8c8e-a284d41bf418")
-		(property "Reference" "TP211"
-			(at 265.43 144.7799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND"
-			(at 265.43 147.3199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 260.35 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 260.35 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 260.35 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f572a9f1-c80b-4846-8928-9fe5518f976f")
-		)
-		(instances
-			(project "projet"
-				(path "/aad9219d-d686-4d68-8dbb-b3c2b0727159/bd811c64-dff7-4046-86a6-8e854625b7a5"
-					(reference "TP211")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 158.75 160.02 0)
 		(unit 1)
@@ -16391,7 +16037,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 260.35 121.92 270)
+		(at 260.35 138.43 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16402,7 +16048,7 @@
 		(fields_autoplaced yes)
 		(uuid "ebe07a7f-9510-4dc2-b345-1b2c956f5542")
 		(property "Reference" "TP204"
-			(at 265.43 120.6499 90)
+			(at 265.43 137.1599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16413,7 +16059,7 @@
 			)
 		)
 		(property "Value" "+5V_USB"
-			(at 265.43 123.1899 90)
+			(at 265.43 139.6999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16424,7 +16070,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 260.35 127 0)
+			(at 260.35 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16435,7 +16081,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 127 0)
+			(at 260.35 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16446,7 +16092,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 260.35 121.92 0)
+			(at 260.35 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
