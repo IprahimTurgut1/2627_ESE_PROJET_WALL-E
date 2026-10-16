@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/beaus/Documents/ENSEA/S9/Projet/Capteur ADA3595/build/Debug/cmake_install.cmake",
+		"C:/Users/beaus/Documents/ENSEA/S9/Projet/Capteur ADA3595/build/Debug/cmake/stm32cubemx/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
