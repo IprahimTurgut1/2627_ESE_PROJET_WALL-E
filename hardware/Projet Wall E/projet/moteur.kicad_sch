@@ -2413,7 +2413,7 @@
 		)
 		(uuid "335ffead-454d-4227-96eb-ab504792d5fb")
 	)
-	(label "BOUT2"
+	(label "BOUT1"
 		(at 193.04 97.79 180)
 		(effects
 			(font
@@ -2453,7 +2453,7 @@
 		)
 		(uuid "8882dbb0-9132-4d1e-93b4-58482e39db37")
 	)
-	(label "BOUT1"
+	(label "BOUT2"
 		(at 193.04 85.09 180)
 		(effects
 			(font
@@ -2880,7 +2880,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 111.76 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -5038,4 +5038,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
