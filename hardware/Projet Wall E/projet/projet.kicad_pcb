@@ -16184,7 +16184,7 @@
 		(at 109.6 80.9 -90)
 		(descr "JST PH series connector, S2B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf)")
 		(tags "connector JST PH horizontal")
-		(property "Reference" "ALIM"
+		(property "Reference" "J202"
 			(at 0 -5.8 90)
 			(layer "F.SilkS")
 			(uuid "3bbd5936-30ee-4f4f-93b8-1cc4bc3fdddf")
@@ -18467,7 +18467,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -22333,7 +22333,7 @@
 				(pins "4" "1" "3" "2")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_pos_files)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 2.65 1.3)
@@ -27666,6 +27666,19 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "f8109151-2624-479c-bb23-a9077c8a4f57")
+	)
+	(gr_text "ALIM"
+		(at 114.55 85.15 90)
+		(layer "F.SilkS")
+		(uuid "89f444bd-cab3-48d4-8a8b-1ad89c3af2c9")
+		(effects
+			(font
+				(size 0.8 0.6)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
 	)
 	(gr_text "PROJET WALL-E\nENSEA ESE 2026-2027\nTURGUT Iprahim · SDIRI Lamyae\nBEAUSON William · CHEIKH Abdellahi\nTSAMO Florette"
 		(at 200.9 80.75 0)

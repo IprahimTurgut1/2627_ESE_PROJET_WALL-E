@@ -6433,7 +6433,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "STATUS"
+		(property "Value" "LED"
 			(at 248.92 100.2664 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9581,7 +9581,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "POWER"
+		(property "Value" "LED"
 			(at 233.68 100.2664 90)
 			(show_name no)
 			(do_not_autoplace no)

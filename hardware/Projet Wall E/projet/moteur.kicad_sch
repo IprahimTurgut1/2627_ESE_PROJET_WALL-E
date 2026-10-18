@@ -3235,7 +3235,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2uF"
+		(property "Value" "2u2"
 			(at 87.63 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)

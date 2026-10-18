@@ -7914,7 +7914,7 @@
 				(justify left)
 			)
 		)
-		(property "JLCPCB Part#" "C261283"
+		(property "JLCPCB Part#" "C475595"
 			(at 154.94 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -8495,7 +8495,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part#" "C98889"
+		(property "JLCPCB Part#" "C723359"
 			(at 232.41 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -8901,7 +8901,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part#" "C460236"
+		(property "JLCPCB Part#" "C968396"
 			(at 173.99 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -10831,7 +10831,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part#" "C460236"
+		(property "JLCPCB Part#" "C968396"
 			(at 156.21 133.35 0)
 			(hide yes)
 			(show_name no)
